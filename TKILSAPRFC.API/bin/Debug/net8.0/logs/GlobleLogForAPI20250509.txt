@@ -1,0 +1,280 @@
+2025-05-09 10:57:57.202 +05:30 [INF] User profile is available. Using 'C:\Users\Milan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-09 10:57:57.583 +05:30 [INF] Creating key {15582fad-0607-4ead-bae9-eda98d951672} with creation date 2025-05-09 05:27:57Z, activation date 2025-05-09 05:27:57Z, and expiration date 2025-08-07 05:27:57Z.
+2025-05-09 10:57:57.597 +05:30 [INF] Writing data to file 'C:\Users\Milan\AppData\Local\ASP.NET\DataProtection-Keys\key-15582fad-0607-4ead-bae9-eda98d951672.xml'.
+2025-05-09 10:58:00.579 +05:30 [INF] Now listening on: https://localhost:7100
+2025-05-09 10:58:00.580 +05:30 [INF] Now listening on: http://localhost:5299
+2025-05-09 10:58:00.730 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-09 10:58:00.730 +05:30 [INF] Hosting environment: Development
+2025-05-09 10:58:00.730 +05:30 [INF] Content root path: D:\Project\DummyProject\TKIL_SAP\TKILSAPRFC.API
+2025-05-09 10:58:02.068 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7100/swagger/index.html - null null
+2025-05-09 10:58:04.676 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7100/swagger/index.html - 200 null text/html;charset=utf-8 2623.8285ms
+2025-05-09 10:58:04.699 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7100/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-09 10:58:04.701 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7100/_vs/browserLink - null null
+2025-05-09 10:58:04.714 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7100/_framework/aspnetcore-browser-refresh.js - 200 16513 application/javascript; charset=utf-8 15.6071ms
+2025-05-09 10:58:04.812 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7100/_vs/browserLink - 200 null text/javascript; charset=UTF-8 112.8385ms
+2025-05-09 10:58:05.024 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7100/swagger/v1/swagger.json - null null
+2025-05-09 10:58:05.050 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7100/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 26.0764ms
+2025-05-09 10:58:05.075 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7100/swagger/favicon-32x32.png - null null
+2025-05-09 10:58:05.096 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-05-09 10:58:05.097 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7100/swagger/favicon-32x32.png - 200 628 image/png 21.5053ms
+2025-05-09 15:25:45.843 +05:30 [INF] User profile is available. Using 'C:\Users\Milan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-09 15:25:48.467 +05:30 [INF] Now listening on: https://localhost:7100
+2025-05-09 15:25:48.468 +05:30 [INF] Now listening on: http://localhost:5299
+2025-05-09 15:25:48.584 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-09 15:25:48.585 +05:30 [INF] Hosting environment: Development
+2025-05-09 15:25:48.585 +05:30 [INF] Content root path: D:\Project\DummyProject\TKIL_SAP\TKILSAPRFC.API
+2025-05-09 15:25:49.545 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7100/swagger/index.html - null null
+2025-05-09 15:25:51.602 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7100/swagger/index.html - 200 null text/html;charset=utf-8 2070.2178ms
+2025-05-09 15:25:51.645 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7100/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-09 15:25:51.645 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7100/_vs/browserLink - null null
+2025-05-09 15:25:51.650 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7100/_framework/aspnetcore-browser-refresh.js - 200 16513 application/javascript; charset=utf-8 6.0056ms
+2025-05-09 15:25:51.718 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7100/_vs/browserLink - 200 null text/javascript; charset=UTF-8 73.974ms
+2025-05-09 15:25:51.856 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7100/swagger/v1/swagger.json - null null
+2025-05-09 15:25:51.879 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7100/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 23.5935ms
+2025-05-09 15:25:58.848 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7100/api/v1/TKILSAPRFCMaster/ConnectionTest - null null
+2025-05-09 15:25:58.938 +05:30 [INF] Executing endpoint 'TKILSAPRFC.API.Controllers.TKILSAPRFCMasterController.ConnectionTest (TKILSAPRFC.API)'
+2025-05-09 15:25:58.962 +05:30 [INF] Route matched with {action = "ConnectionTest", controller = "TKILSAPRFCMaster"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ConnectionTest() on controller TKILSAPRFC.API.Controllers.TKILSAPRFCMasterController (TKILSAPRFC.API).
+2025-05-09 15:26:04.920 +05:30 [INF] Start processing HTTP request GET http://localhost:5000/api/rfc/ping
+2025-05-09 15:26:04.923 +05:30 [INF] Sending HTTP request GET http://localhost:5000/api/rfc/ping
+2025-05-09 15:26:12.331 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-05-09 15:26:12.340 +05:30 [INF] Executed action TKILSAPRFC.API.Controllers.TKILSAPRFCMasterController.ConnectionTest (TKILSAPRFC.API) in 13374.577ms
+2025-05-09 15:26:12.340 +05:30 [INF] Executed endpoint 'TKILSAPRFC.API.Controllers.TKILSAPRFCMasterController.ConnectionTest (TKILSAPRFC.API)'
+2025-05-09 15:26:12.346 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7100/api/v1/TKILSAPRFCMaster/ConnectionTest - 200 null application/json; charset=utf-8 13498.1224ms
+2025-05-09 15:29:25.170 +05:30 [INF] User profile is available. Using 'C:\Users\Milan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-09 15:29:27.300 +05:30 [INF] Now listening on: https://localhost:7100
+2025-05-09 15:29:27.300 +05:30 [INF] Now listening on: http://localhost:5299
+2025-05-09 15:29:27.500 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-09 15:29:27.501 +05:30 [INF] Hosting environment: Development
+2025-05-09 15:29:27.501 +05:30 [INF] Content root path: D:\Project\DummyProject\TKIL_SAP\TKILSAPRFC.API
+2025-05-09 15:29:27.971 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7100/swagger/index.html - null null
+2025-05-09 15:29:28.740 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7100/swagger/index.html - 200 null text/html;charset=utf-8 781.9323ms
+2025-05-09 15:29:28.760 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7100/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-09 15:29:28.769 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7100/_vs/browserLink - null null
+2025-05-09 15:29:28.771 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7100/_framework/aspnetcore-browser-refresh.js - 200 16513 application/javascript; charset=utf-8 11.1748ms
+2025-05-09 15:29:28.839 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7100/_vs/browserLink - 200 null text/javascript; charset=UTF-8 70.63ms
+2025-05-09 15:29:28.933 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7100/swagger/v1/swagger.json - null null
+2025-05-09 15:29:28.960 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7100/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 27.3278ms
+2025-05-09 15:29:36.197 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7100/api/v1/TKILSAPRFCMaster/ConnectionTest - null null
+2025-05-09 15:29:36.280 +05:30 [INF] Executing endpoint 'TKILSAPRFC.API.Controllers.TKILSAPRFCMasterController.ConnectionTest (TKILSAPRFC.API)'
+2025-05-09 15:29:36.299 +05:30 [INF] Route matched with {action = "ConnectionTest", controller = "TKILSAPRFCMaster"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ConnectionTest() on controller TKILSAPRFC.API.Controllers.TKILSAPRFCMasterController (TKILSAPRFC.API).
+2025-05-09 15:29:59.054 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-05-09 15:29:59.064 +05:30 [INF] Executed action TKILSAPRFC.API.Controllers.TKILSAPRFCMasterController.ConnectionTest (TKILSAPRFC.API) in 22760.5017ms
+2025-05-09 15:29:59.065 +05:30 [INF] Executed endpoint 'TKILSAPRFC.API.Controllers.TKILSAPRFCMasterController.ConnectionTest (TKILSAPRFC.API)'
+2025-05-09 15:29:59.065 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7100/api/v1/TKILSAPRFCMaster/ConnectionTest - 200 null application/json; charset=utf-8 22869.1533ms
+2025-05-09 15:30:11.374 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7100/api/v1/TKILSAPRFCMaster/ConnectionTest - null null
+2025-05-09 15:30:11.379 +05:30 [INF] Executing endpoint 'TKILSAPRFC.API.Controllers.TKILSAPRFCMasterController.ConnectionTest (TKILSAPRFC.API)'
+2025-05-09 15:30:11.380 +05:30 [INF] Route matched with {action = "ConnectionTest", controller = "TKILSAPRFCMaster"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ConnectionTest() on controller TKILSAPRFC.API.Controllers.TKILSAPRFCMasterController (TKILSAPRFC.API).
+2025-05-09 15:30:12.588 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-05-09 15:30:12.589 +05:30 [INF] Executed action TKILSAPRFC.API.Controllers.TKILSAPRFCMasterController.ConnectionTest (TKILSAPRFC.API) in 1208.4291ms
+2025-05-09 15:30:12.589 +05:30 [INF] Executed endpoint 'TKILSAPRFC.API.Controllers.TKILSAPRFCMasterController.ConnectionTest (TKILSAPRFC.API)'
+2025-05-09 15:30:12.590 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7100/api/v1/TKILSAPRFCMaster/ConnectionTest - 200 null application/json; charset=utf-8 1219.0214ms
+2025-05-09 15:30:14.932 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7100/api/v1/TKILSAPRFCMaster/ConnectionTest - null null
+2025-05-09 15:30:14.933 +05:30 [INF] Executing endpoint 'TKILSAPRFC.API.Controllers.TKILSAPRFCMasterController.ConnectionTest (TKILSAPRFC.API)'
+2025-05-09 15:30:14.933 +05:30 [INF] Route matched with {action = "ConnectionTest", controller = "TKILSAPRFCMaster"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ConnectionTest() on controller TKILSAPRFC.API.Controllers.TKILSAPRFCMasterController (TKILSAPRFC.API).
+2025-05-09 15:31:01.700 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-05-09 15:31:01.700 +05:30 [INF] Executed action TKILSAPRFC.API.Controllers.TKILSAPRFCMasterController.ConnectionTest (TKILSAPRFC.API) in 46766.8829ms
+2025-05-09 15:31:01.700 +05:30 [INF] Executed endpoint 'TKILSAPRFC.API.Controllers.TKILSAPRFCMasterController.ConnectionTest (TKILSAPRFC.API)'
+2025-05-09 15:31:01.700 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7100/api/v1/TKILSAPRFCMaster/ConnectionTest - 200 null application/json; charset=utf-8 46768.6101ms
+2025-05-09 15:43:08.675 +05:30 [INF] User profile is available. Using 'C:\Users\Milan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-09 15:43:11.283 +05:30 [INF] Now listening on: https://localhost:7100
+2025-05-09 15:43:11.284 +05:30 [INF] Now listening on: http://localhost:5299
+2025-05-09 15:43:11.392 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-09 15:43:11.392 +05:30 [INF] Hosting environment: Development
+2025-05-09 15:43:11.392 +05:30 [INF] Content root path: D:\Project\DummyProject\TKIL_SAP\TKILSAPRFC.API
+2025-05-09 15:43:12.385 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7100/swagger/index.html - null null
+2025-05-09 15:43:14.453 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7100/swagger/index.html - 200 null text/html;charset=utf-8 2079.7376ms
+2025-05-09 15:43:14.491 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7100/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-09 15:43:14.491 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7100/_vs/browserLink - null null
+2025-05-09 15:43:14.500 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7100/_framework/aspnetcore-browser-refresh.js - 200 16513 application/javascript; charset=utf-8 15.5315ms
+2025-05-09 15:43:14.640 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7100/_vs/browserLink - 200 null text/javascript; charset=UTF-8 149.0343ms
+2025-05-09 15:43:14.731 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7100/swagger/v1/swagger.json - null null
+2025-05-09 15:43:14.747 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7100/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 16.6268ms
+2025-05-09 15:44:13.547 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7100/api/v1/TKILSAPRFCMaster/ConnectionTest - null null
+2025-05-09 15:44:13.717 +05:30 [INF] Executing endpoint 'TKILSAPRFC.API.Controllers.TKILSAPRFCMasterController.ConnectionTest (TKILSAPRFC.API)'
+2025-05-09 15:44:13.743 +05:30 [INF] Route matched with {action = "ConnectionTest", controller = "TKILSAPRFCMaster"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ConnectionTest() on controller TKILSAPRFC.API.Controllers.TKILSAPRFCMasterController (TKILSAPRFC.API).
+2025-05-09 15:45:06.533 +05:30 [INF] User profile is available. Using 'C:\Users\Milan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-09 15:45:08.622 +05:30 [INF] Now listening on: https://localhost:7100
+2025-05-09 15:45:08.623 +05:30 [INF] Now listening on: http://localhost:5299
+2025-05-09 15:45:08.726 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-09 15:45:08.726 +05:30 [INF] Hosting environment: Development
+2025-05-09 15:45:08.727 +05:30 [INF] Content root path: D:\Project\DummyProject\TKIL_SAP\TKILSAPRFC.API
+2025-05-09 15:45:09.709 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7100/swagger/index.html - null null
+2025-05-09 15:45:10.496 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7100/swagger/index.html - 200 null text/html;charset=utf-8 792.7563ms
+2025-05-09 15:45:10.530 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7100/_vs/browserLink - null null
+2025-05-09 15:45:10.534 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7100/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-09 15:45:10.552 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7100/_framework/aspnetcore-browser-refresh.js - 200 16513 application/javascript; charset=utf-8 17.922ms
+2025-05-09 15:45:10.610 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7100/_vs/browserLink - 200 null text/javascript; charset=UTF-8 79.8352ms
+2025-05-09 15:45:10.729 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7100/swagger/v1/swagger.json - null null
+2025-05-09 15:45:10.745 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7100/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 16.5003ms
+2025-05-09 15:45:21.546 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7100/api/v1/TKILSAPRFCMaster/ConnectionTest - null null
+2025-05-09 15:45:21.629 +05:30 [INF] Executing endpoint 'TKILSAPRFC.API.Controllers.TKILSAPRFCMasterController.ConnectionTest (TKILSAPRFC.API)'
+2025-05-09 15:45:21.650 +05:30 [INF] Route matched with {action = "ConnectionTest", controller = "TKILSAPRFCMaster"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ConnectionTest() on controller TKILSAPRFC.API.Controllers.TKILSAPRFCMasterController (TKILSAPRFC.API).
+2025-05-09 15:49:44.847 +05:30 [INF] User profile is available. Using 'C:\Users\Milan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-09 15:49:46.948 +05:30 [INF] Now listening on: https://localhost:7100
+2025-05-09 15:49:46.948 +05:30 [INF] Now listening on: http://localhost:5299
+2025-05-09 15:49:47.048 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-09 15:49:47.048 +05:30 [INF] Hosting environment: Development
+2025-05-09 15:49:47.048 +05:30 [INF] Content root path: D:\Project\DummyProject\TKIL_SAP\TKILSAPRFC.API
+2025-05-09 15:49:47.845 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7100/swagger/index.html - null null
+2025-05-09 15:49:48.631 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7100/swagger/index.html - 200 null text/html;charset=utf-8 794.2659ms
+2025-05-09 15:49:48.656 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7100/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-09 15:49:48.657 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7100/_vs/browserLink - null null
+2025-05-09 15:49:48.664 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7100/_framework/aspnetcore-browser-refresh.js - 200 16513 application/javascript; charset=utf-8 8.3385ms
+2025-05-09 15:49:48.758 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7100/_vs/browserLink - 200 null text/javascript; charset=UTF-8 100.8594ms
+2025-05-09 15:49:48.875 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7100/swagger/v1/swagger.json - null null
+2025-05-09 15:49:48.895 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7100/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 19.449ms
+2025-05-09 15:49:55.127 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7100/api/v1/TKILSAPRFCMaster/ConnectionTest - null null
+2025-05-09 15:49:55.210 +05:30 [INF] Executing endpoint 'TKILSAPRFC.API.Controllers.TKILSAPRFCMasterController.ConnectionTest (TKILSAPRFC.API)'
+2025-05-09 15:49:55.230 +05:30 [INF] Route matched with {action = "ConnectionTest", controller = "TKILSAPRFCMaster"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ConnectionTest() on controller TKILSAPRFC.API.Controllers.TKILSAPRFCMasterController (TKILSAPRFC.API).
+2025-05-09 15:51:13.336 +05:30 [INF] User profile is available. Using 'C:\Users\Milan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-09 15:51:15.348 +05:30 [INF] Now listening on: https://localhost:7100
+2025-05-09 15:51:15.349 +05:30 [INF] Now listening on: http://localhost:5299
+2025-05-09 15:51:15.444 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-09 15:51:15.445 +05:30 [INF] Hosting environment: Development
+2025-05-09 15:51:15.445 +05:30 [INF] Content root path: D:\Project\DummyProject\TKIL_SAP\TKILSAPRFC.API
+2025-05-09 15:51:16.358 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7100/swagger/index.html - null null
+2025-05-09 15:51:17.104 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7100/swagger/index.html - 200 null text/html;charset=utf-8 759.7228ms
+2025-05-09 15:51:17.132 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7100/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-09 15:51:17.134 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7100/_vs/browserLink - null null
+2025-05-09 15:51:17.141 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7100/_framework/aspnetcore-browser-refresh.js - 200 16513 application/javascript; charset=utf-8 9.3996ms
+2025-05-09 15:51:17.232 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7100/_vs/browserLink - 200 null text/javascript; charset=UTF-8 97.4617ms
+2025-05-09 15:51:17.336 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7100/swagger/v1/swagger.json - null null
+2025-05-09 15:51:17.369 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7100/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 33.8123ms
+2025-05-09 15:51:22.201 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7100/api/v1/TKILSAPRFCMaster/ConnectionTest - null null
+2025-05-09 15:51:22.283 +05:30 [INF] Executing endpoint 'TKILSAPRFC.API.Controllers.TKILSAPRFCMasterController.ConnectionTest (TKILSAPRFC.API)'
+2025-05-09 15:51:22.301 +05:30 [INF] Route matched with {action = "ConnectionTest", controller = "TKILSAPRFCMaster"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ConnectionTest() on controller TKILSAPRFC.API.Controllers.TKILSAPRFCMasterController (TKILSAPRFC.API).
+2025-05-09 16:03:05.114 +05:30 [INF] User profile is available. Using 'C:\Users\Milan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-09 16:03:07.540 +05:30 [INF] Now listening on: https://localhost:7100
+2025-05-09 16:03:07.540 +05:30 [INF] Now listening on: http://localhost:5299
+2025-05-09 16:03:07.639 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-09 16:03:07.640 +05:30 [INF] Hosting environment: Development
+2025-05-09 16:03:07.640 +05:30 [INF] Content root path: D:\Project\DummyProject\TKIL_SAP\TKILSAPRFC.API
+2025-05-09 16:03:08.735 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7100/swagger/index.html - null null
+2025-05-09 16:03:10.655 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7100/swagger/index.html - 200 null text/html;charset=utf-8 1932.6366ms
+2025-05-09 16:03:10.682 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7100/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-09 16:03:10.687 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7100/_vs/browserLink - null null
+2025-05-09 16:03:10.695 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7100/_framework/aspnetcore-browser-refresh.js - 200 16513 application/javascript; charset=utf-8 13.8249ms
+2025-05-09 16:03:10.792 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7100/_vs/browserLink - 200 null text/javascript; charset=UTF-8 104.2617ms
+2025-05-09 16:03:10.891 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7100/swagger/v1/swagger.json - null null
+2025-05-09 16:03:10.912 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7100/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 20.9929ms
+2025-05-09 16:03:16.617 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7100/api/v1/TKILSAPRFCMaster/ping - null null
+2025-05-09 16:03:16.700 +05:30 [INF] Executing endpoint 'TKILSAPRFC.API.Controllers.TKILSAPRFCMasterController.Ping (TKILSAPRFC.API)'
+2025-05-09 16:03:16.718 +05:30 [INF] Route matched with {action = "Ping", controller = "TKILSAPRFCMaster"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Ping() on controller TKILSAPRFC.API.Controllers.TKILSAPRFCMasterController (TKILSAPRFC.API).
+2025-05-09 16:04:59.827 +05:30 [INF] User profile is available. Using 'C:\Users\Milan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-09 16:05:01.941 +05:30 [INF] Now listening on: https://localhost:7100
+2025-05-09 16:05:01.942 +05:30 [INF] Now listening on: http://localhost:5299
+2025-05-09 16:05:02.188 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-09 16:05:02.188 +05:30 [INF] Hosting environment: Development
+2025-05-09 16:05:02.189 +05:30 [INF] Content root path: D:\Project\DummyProject\TKIL_SAP\TKILSAPRFC.API
+2025-05-09 16:05:02.762 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7100/swagger/index.html - null null
+2025-05-09 16:05:03.475 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7100/swagger/index.html - 200 null text/html;charset=utf-8 721.2968ms
+2025-05-09 16:05:03.498 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7100/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-09 16:05:03.510 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7100/_vs/browserLink - null null
+2025-05-09 16:05:03.511 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7100/_framework/aspnetcore-browser-refresh.js - 200 16513 application/javascript; charset=utf-8 12.661ms
+2025-05-09 16:05:03.583 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7100/_vs/browserLink - 200 null text/javascript; charset=UTF-8 76.7172ms
+2025-05-09 16:05:03.667 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7100/swagger/v1/swagger.json - null null
+2025-05-09 16:05:03.683 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7100/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 16.2269ms
+2025-05-09 16:05:10.219 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7100/api/v1/TKILSAPRFCMaster/ping - null null
+2025-05-09 16:05:10.303 +05:30 [INF] Executing endpoint 'TKILSAPRFC.API.Controllers.TKILSAPRFCMasterController.Ping (TKILSAPRFC.API)'
+2025-05-09 16:05:10.321 +05:30 [INF] Route matched with {action = "Ping", controller = "TKILSAPRFCMaster"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Ping() on controller TKILSAPRFC.API.Controllers.TKILSAPRFCMasterController (TKILSAPRFC.API).
+2025-05-09 16:05:30.816 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-05-09 16:05:42.161 +05:30 [INF] Executed action TKILSAPRFC.API.Controllers.TKILSAPRFCMasterController.Ping (TKILSAPRFC.API) in 31836.5968ms
+2025-05-09 16:05:42.161 +05:30 [INF] Executed endpoint 'TKILSAPRFC.API.Controllers.TKILSAPRFCMasterController.Ping (TKILSAPRFC.API)'
+2025-05-09 16:05:42.164 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7100/api/v1/TKILSAPRFCMaster/ping - 200 null application/json; charset=utf-8 31945.3018ms
+2025-05-09 16:07:26.939 +05:30 [INF] User profile is available. Using 'C:\Users\Milan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-09 16:07:28.978 +05:30 [INF] Now listening on: https://localhost:7100
+2025-05-09 16:07:28.979 +05:30 [INF] Now listening on: http://localhost:5299
+2025-05-09 16:07:29.161 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-09 16:07:29.161 +05:30 [INF] Hosting environment: Development
+2025-05-09 16:07:29.161 +05:30 [INF] Content root path: D:\Project\DummyProject\TKIL_SAP\TKILSAPRFC.API
+2025-05-09 16:07:29.647 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7100/swagger/index.html - null null
+2025-05-09 16:07:30.403 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7100/swagger/index.html - 200 null text/html;charset=utf-8 764.8419ms
+2025-05-09 16:07:30.431 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7100/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-09 16:07:30.432 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7100/_vs/browserLink - null null
+2025-05-09 16:07:30.443 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7100/_framework/aspnetcore-browser-refresh.js - 200 16513 application/javascript; charset=utf-8 12.0665ms
+2025-05-09 16:07:30.527 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7100/_vs/browserLink - 200 null text/javascript; charset=UTF-8 94.5216ms
+2025-05-09 16:07:30.633 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7100/swagger/v1/swagger.json - null null
+2025-05-09 16:07:30.654 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7100/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 21.0484ms
+2025-05-09 16:07:36.270 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7100/api/v1/TKILSAPRFCMaster/ConnectionPing - null null
+2025-05-09 16:07:36.353 +05:30 [INF] Executing endpoint 'TKILSAPRFC.API.Controllers.TKILSAPRFCMasterController.Ping (TKILSAPRFC.API)'
+2025-05-09 16:07:36.373 +05:30 [INF] Route matched with {action = "Ping", controller = "TKILSAPRFCMaster"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Ping() on controller TKILSAPRFC.API.Controllers.TKILSAPRFCMasterController (TKILSAPRFC.API).
+2025-05-09 16:07:37.457 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-05-09 16:07:37.470 +05:30 [INF] Executed action TKILSAPRFC.API.Controllers.TKILSAPRFCMasterController.Ping (TKILSAPRFC.API) in 1092.2156ms
+2025-05-09 16:07:37.470 +05:30 [INF] Executed endpoint 'TKILSAPRFC.API.Controllers.TKILSAPRFCMasterController.Ping (TKILSAPRFC.API)'
+2025-05-09 16:07:37.473 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7100/api/v1/TKILSAPRFCMaster/ConnectionPing - 200 null application/json; charset=utf-8 1203.2021ms
+2025-05-09 16:07:55.676 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7100/api/v1/TKILSAPRFCMaster/ConnectionPing - null null
+2025-05-09 16:07:55.680 +05:30 [INF] Executing endpoint 'TKILSAPRFC.API.Controllers.TKILSAPRFCMasterController.Ping (TKILSAPRFC.API)'
+2025-05-09 16:07:55.681 +05:30 [INF] Route matched with {action = "Ping", controller = "TKILSAPRFCMaster"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Ping() on controller TKILSAPRFC.API.Controllers.TKILSAPRFCMasterController (TKILSAPRFC.API).
+2025-05-09 16:08:16.998 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-05-09 16:08:17.000 +05:30 [INF] Executed action TKILSAPRFC.API.Controllers.TKILSAPRFCMasterController.Ping (TKILSAPRFC.API) in 21318.6396ms
+2025-05-09 16:08:17.000 +05:30 [INF] Executed endpoint 'TKILSAPRFC.API.Controllers.TKILSAPRFCMasterController.Ping (TKILSAPRFC.API)'
+2025-05-09 16:08:17.000 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7100/api/v1/TKILSAPRFCMaster/ConnectionPing - 200 null application/json; charset=utf-8 21327.4745ms
+2025-05-09 16:08:48.068 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7100/api/v1/TKILSAPRFCMaster/ConnectionPing - null null
+2025-05-09 16:08:48.104 +05:30 [INF] Executing endpoint 'TKILSAPRFC.API.Controllers.TKILSAPRFCMasterController.Ping (TKILSAPRFC.API)'
+2025-05-09 16:08:48.104 +05:30 [INF] Route matched with {action = "Ping", controller = "TKILSAPRFCMaster"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Ping() on controller TKILSAPRFC.API.Controllers.TKILSAPRFCMasterController (TKILSAPRFC.API).
+2025-05-09 16:08:48.814 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-05-09 16:08:48.815 +05:30 [INF] Executed action TKILSAPRFC.API.Controllers.TKILSAPRFCMasterController.Ping (TKILSAPRFC.API) in 710.7898ms
+2025-05-09 16:08:48.815 +05:30 [INF] Executed endpoint 'TKILSAPRFC.API.Controllers.TKILSAPRFCMasterController.Ping (TKILSAPRFC.API)'
+2025-05-09 16:08:48.815 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7100/api/v1/TKILSAPRFCMaster/ConnectionPing - 200 null application/json; charset=utf-8 748.8038ms
+2025-05-09 16:09:49.355 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7100/api/v1/TKILSAPRFCMaster/ConnectionPing - null null
+2025-05-09 16:09:49.415 +05:30 [INF] Executing endpoint 'TKILSAPRFC.API.Controllers.TKILSAPRFCMasterController.Ping (TKILSAPRFC.API)'
+2025-05-09 16:09:49.415 +05:30 [INF] Route matched with {action = "Ping", controller = "TKILSAPRFCMaster"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Ping() on controller TKILSAPRFC.API.Controllers.TKILSAPRFCMasterController (TKILSAPRFC.API).
+2025-05-09 16:10:10.695 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-05-09 16:10:10.695 +05:30 [INF] Executed action TKILSAPRFC.API.Controllers.TKILSAPRFCMasterController.Ping (TKILSAPRFC.API) in 21280.2825ms
+2025-05-09 16:10:10.695 +05:30 [INF] Executed endpoint 'TKILSAPRFC.API.Controllers.TKILSAPRFCMasterController.Ping (TKILSAPRFC.API)'
+2025-05-09 16:10:10.696 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7100/api/v1/TKILSAPRFCMaster/ConnectionPing - 200 null application/json; charset=utf-8 21341.5497ms
+2025-05-09 16:10:27.610 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7100/api/v1/TKILSAPRFCMaster/ConnectionPing - null null
+2025-05-09 16:10:27.618 +05:30 [INF] Executing endpoint 'TKILSAPRFC.API.Controllers.TKILSAPRFCMasterController.Ping (TKILSAPRFC.API)'
+2025-05-09 16:10:27.646 +05:30 [INF] Route matched with {action = "Ping", controller = "TKILSAPRFCMaster"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Ping() on controller TKILSAPRFC.API.Controllers.TKILSAPRFCMasterController (TKILSAPRFC.API).
+2025-05-09 16:10:28.666 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-05-09 16:10:28.666 +05:30 [INF] Executed action TKILSAPRFC.API.Controllers.TKILSAPRFCMasterController.Ping (TKILSAPRFC.API) in 1019.7302ms
+2025-05-09 16:10:28.666 +05:30 [INF] Executed endpoint 'TKILSAPRFC.API.Controllers.TKILSAPRFCMasterController.Ping (TKILSAPRFC.API)'
+2025-05-09 16:10:28.667 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7100/api/v1/TKILSAPRFCMaster/ConnectionPing - 200 null application/json; charset=utf-8 1057.4827ms
+2025-05-09 16:18:48.049 +05:30 [INF] User profile is available. Using 'C:\Users\Milan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-09 16:18:50.601 +05:30 [INF] Now listening on: https://localhost:7100
+2025-05-09 16:18:50.602 +05:30 [INF] Now listening on: http://localhost:5299
+2025-05-09 16:18:50.724 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-09 16:18:50.724 +05:30 [INF] Hosting environment: Development
+2025-05-09 16:18:50.724 +05:30 [INF] Content root path: D:\Project\DummyProject\TKIL_SAP\TKILSAPRFC.API
+2025-05-09 16:18:51.364 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7100/swagger/index.html - null null
+2025-05-09 16:18:53.487 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7100/swagger/index.html - 200 null text/html;charset=utf-8 2131.8474ms
+2025-05-09 16:18:53.505 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7100/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-09 16:18:53.512 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7100/_vs/browserLink - null null
+2025-05-09 16:18:53.519 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7100/_framework/aspnetcore-browser-refresh.js - 200 16513 application/javascript; charset=utf-8 13.8548ms
+2025-05-09 16:18:53.621 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7100/_vs/browserLink - 200 null text/javascript; charset=UTF-8 109.2559ms
+2025-05-09 16:18:53.725 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7100/swagger/v1/swagger.json - null null
+2025-05-09 16:18:53.746 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7100/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 20.7895ms
+2025-05-09 16:19:07.041 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7100/api/v1/Connection/ConnectionPing - null null
+2025-05-09 16:19:07.058 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-09 16:19:07.063 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2025-05-09 16:19:07.063 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7100/api/v1/Connection/ConnectionPing - 401 0 null 21.9157ms
+2025-05-09 16:19:27.185 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7100/api/v1/Login/User - application/json 53
+2025-05-09 16:19:27.225 +05:30 [INF] CORS policy execution successful.
+2025-05-09 16:19:27.297 +05:30 [INF] Executing endpoint 'TKILSAPRFC.API.Controllers.LoginController.UserLogin (TKILSAPRFC.API)'
+2025-05-09 16:19:27.324 +05:30 [INF] Route matched with {action = "UserLogin", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserLogin(TKILSAPRFC.Model.ViewModels.UserLoginVM) on controller TKILSAPRFC.API.Controllers.LoginController (TKILSAPRFC.API).
+2025-05-09 16:19:27.689 +05:30 [INF] Executing OkObjectResult, writing value of type 'TKILSAPRFC.Core.Helpers.ApiResponse`1[[TKILSAPRFC.Model.ViewModels.AuthResponseVm, TKILSAPRFC.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-09 16:19:27.712 +05:30 [INF] Executed action TKILSAPRFC.API.Controllers.LoginController.UserLogin (TKILSAPRFC.API) in 384.1014ms
+2025-05-09 16:19:27.712 +05:30 [INF] Executed endpoint 'TKILSAPRFC.API.Controllers.LoginController.UserLogin (TKILSAPRFC.API)'
+2025-05-09 16:19:27.713 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7100/api/v1/Login/User - 200 null application/json; charset=utf-8 528.7727ms
+2025-05-09 16:19:49.917 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7100/api/v1/Connection/ConnectionPing - null null
+2025-05-09 16:19:49.997 +05:30 [INF] Executing endpoint 'TKILSAPRFC.API.Controllers.ConnectionController.Ping (TKILSAPRFC.API)'
+2025-05-09 16:19:50.003 +05:30 [INF] Route matched with {action = "Ping", controller = "Connection"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Ping() on controller TKILSAPRFC.API.Controllers.ConnectionController (TKILSAPRFC.API).
+2025-05-09 16:19:51.040 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-05-09 16:19:51.045 +05:30 [INF] Executed action TKILSAPRFC.API.Controllers.ConnectionController.Ping (TKILSAPRFC.API) in 1042.2385ms
+2025-05-09 16:19:51.046 +05:30 [INF] Executed endpoint 'TKILSAPRFC.API.Controllers.ConnectionController.Ping (TKILSAPRFC.API)'
+2025-05-09 16:19:51.048 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7100/api/v1/Connection/ConnectionPing - 200 null application/json; charset=utf-8 1131.6596ms
+2025-05-09 16:20:43.777 +05:30 [INF] User profile is available. Using 'C:\Users\Milan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-09 16:20:45.858 +05:30 [INF] Now listening on: https://localhost:7100
+2025-05-09 16:20:45.859 +05:30 [INF] Now listening on: http://localhost:5299
+2025-05-09 16:20:45.969 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-09 16:20:45.969 +05:30 [INF] Hosting environment: Development
+2025-05-09 16:20:45.969 +05:30 [INF] Content root path: D:\Project\DummyProject\TKIL_SAP\TKILSAPRFC.API
+2025-05-09 16:20:46.704 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7100/swagger/index.html - null null
+2025-05-09 16:20:47.468 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7100/swagger/index.html - 200 null text/html;charset=utf-8 776.6652ms
+2025-05-09 16:20:47.488 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7100/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-09 16:20:47.502 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7100/_framework/aspnetcore-browser-refresh.js - 200 16513 application/javascript; charset=utf-8 13.9915ms
+2025-05-09 16:20:47.506 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7100/_vs/browserLink - null null
+2025-05-09 16:20:47.576 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7100/_vs/browserLink - 200 null text/javascript; charset=UTF-8 69.8769ms
+2025-05-09 16:20:47.701 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7100/swagger/v1/swagger.json - null null
+2025-05-09 16:20:47.721 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7100/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 20.174ms

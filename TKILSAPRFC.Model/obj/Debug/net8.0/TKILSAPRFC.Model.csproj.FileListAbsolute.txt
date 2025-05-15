@@ -1,0 +1,15 @@
+D:\Project\DummyProject\TKIL_SAP\TKILSAPRFC.Model\bin\Debug\net8.0\TKILSAPRFC.Model.deps.json
+D:\Project\DummyProject\TKIL_SAP\TKILSAPRFC.Model\bin\Debug\net8.0\TKILSAPRFC.Model.dll
+D:\Project\DummyProject\TKIL_SAP\TKILSAPRFC.Model\bin\Debug\net8.0\TKILSAPRFC.Model.pdb
+D:\Project\DummyProject\TKIL_SAP\TKILSAPRFC.Model\bin\Debug\net8.0\NwRfcNet.dll
+D:\Project\DummyProject\TKIL_SAP\TKILSAPRFC.Model\bin\Debug\net8.0\NwRfcNet.pdb
+D:\Project\DummyProject\TKIL_SAP\TKILSAPRFC.Model\obj\Debug\net8.0\TKILSAPRFC.Model.csproj.AssemblyReference.cache
+D:\Project\DummyProject\TKIL_SAP\TKILSAPRFC.Model\obj\Debug\net8.0\TKILSAPRFC.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\DummyProject\TKIL_SAP\TKILSAPRFC.Model\obj\Debug\net8.0\TKILSAPRFC.Model.AssemblyInfoInputs.cache
+D:\Project\DummyProject\TKIL_SAP\TKILSAPRFC.Model\obj\Debug\net8.0\TKILSAPRFC.Model.AssemblyInfo.cs
+D:\Project\DummyProject\TKIL_SAP\TKILSAPRFC.Model\obj\Debug\net8.0\TKILSAPRFC.Model.csproj.CoreCompileInputs.cache
+D:\Project\DummyProject\TKIL_SAP\TKILSAPRFC.Model\obj\Debug\net8.0\TKILSAPR.8E784DD9.Up2Date
+D:\Project\DummyProject\TKIL_SAP\TKILSAPRFC.Model\obj\Debug\net8.0\TKILSAPRFC.Model.dll
+D:\Project\DummyProject\TKIL_SAP\TKILSAPRFC.Model\obj\Debug\net8.0\refint\TKILSAPRFC.Model.dll
+D:\Project\DummyProject\TKIL_SAP\TKILSAPRFC.Model\obj\Debug\net8.0\TKILSAPRFC.Model.pdb
+D:\Project\DummyProject\TKIL_SAP\TKILSAPRFC.Model\obj\Debug\net8.0\ref\TKILSAPRFC.Model.dll

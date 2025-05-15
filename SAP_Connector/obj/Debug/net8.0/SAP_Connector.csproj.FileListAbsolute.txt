@@ -1,0 +1,12 @@
+D:\Project\DummyProject\TKIL_SAP\SAP_Connector\bin\Debug\net8.0\SAP_Connector.deps.json
+D:\Project\DummyProject\TKIL_SAP\SAP_Connector\bin\Debug\net8.0\SAP_Connector.dll
+D:\Project\DummyProject\TKIL_SAP\SAP_Connector\bin\Debug\net8.0\SAP_Connector.pdb
+D:\Project\DummyProject\TKIL_SAP\SAP_Connector\obj\Debug\net8.0\SAP_Connector.csproj.AssemblyReference.cache
+D:\Project\DummyProject\TKIL_SAP\SAP_Connector\obj\Debug\net8.0\SAP_Connector.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\DummyProject\TKIL_SAP\SAP_Connector\obj\Debug\net8.0\SAP_Connector.AssemblyInfoInputs.cache
+D:\Project\DummyProject\TKIL_SAP\SAP_Connector\obj\Debug\net8.0\SAP_Connector.AssemblyInfo.cs
+D:\Project\DummyProject\TKIL_SAP\SAP_Connector\obj\Debug\net8.0\SAP_Connector.csproj.CoreCompileInputs.cache
+D:\Project\DummyProject\TKIL_SAP\SAP_Connector\obj\Debug\net8.0\SAP_Connector.dll
+D:\Project\DummyProject\TKIL_SAP\SAP_Connector\obj\Debug\net8.0\refint\SAP_Connector.dll
+D:\Project\DummyProject\TKIL_SAP\SAP_Connector\obj\Debug\net8.0\SAP_Connector.pdb
+D:\Project\DummyProject\TKIL_SAP\SAP_Connector\obj\Debug\net8.0\ref\SAP_Connector.dll

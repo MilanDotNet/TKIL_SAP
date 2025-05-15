@@ -1,0 +1,12 @@
+D:\Project\SVN\SvnSTS\STS\STS.Model\bin\Release\net8.0\STS.Model.deps.json
+D:\Project\SVN\SvnSTS\STS\STS.Model\bin\Release\net8.0\STS.Model.dll
+D:\Project\SVN\SvnSTS\STS\STS.Model\bin\Release\net8.0\STS.Model.pdb
+D:\Project\SVN\SvnSTS\STS\STS.Model\obj\Release\net8.0\STS.Model.csproj.AssemblyReference.cache
+D:\Project\SVN\SvnSTS\STS\STS.Model\obj\Release\net8.0\STS.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\SVN\SvnSTS\STS\STS.Model\obj\Release\net8.0\STS.Model.AssemblyInfoInputs.cache
+D:\Project\SVN\SvnSTS\STS\STS.Model\obj\Release\net8.0\STS.Model.AssemblyInfo.cs
+D:\Project\SVN\SvnSTS\STS\STS.Model\obj\Release\net8.0\STS.Model.csproj.CoreCompileInputs.cache
+D:\Project\SVN\SvnSTS\STS\STS.Model\obj\Release\net8.0\STS.Model.dll
+D:\Project\SVN\SvnSTS\STS\STS.Model\obj\Release\net8.0\refint\STS.Model.dll
+D:\Project\SVN\SvnSTS\STS\STS.Model\obj\Release\net8.0\STS.Model.pdb
+D:\Project\SVN\SvnSTS\STS\STS.Model\obj\Release\net8.0\ref\STS.Model.dll

@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <table style=" border-spacing: 10px;
+        background: #E1EEF4;
+        border: 1px solid #f2c64c;
+        border-radius: 3px;
+        padding: 3px 7px 2px 7px;
+        font-family: Calibri, Helvetica, Arial, sans-serif;
+        color: black;
+        font-size: 1.1em;
+        ">
+        
+            <tr>
+                <td style="font-weight: bold">Dear $RequestName$,</td>
+
+            </tr>
+            <tr></tr>
+            <tr>
+                <td>Below Purchase Request is assigned to $AssingBuyerName$ from Purchase Department to take further action.</td>
+            </tr>
+
+            <tr></tr>
+            <tr><td>Buyer Name: $BuyerName$</td></tr>
+            <tr>
+                <td>PR Number: $PRNumber$</td>
+            </tr>
+            <tr>
+                <td>PR Description: $PrDescription$</td>
+            </tr>
+            <tr>
+                <td>PR Total Amount: $TotalValue$</td>
+            </tr>
+            <tr>
+                <td>Requested by: $RequestName$</td>
+            </tr>
+            <tr>
+                <td>Requested Date and Time: $ReqDate$</td>
+            </tr>
+            <tr><td>Approved Date and Time: $ApproveDate$</td></tr>
+
+            <tr>
+                <td>Department: $Department$</td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td>List of PR Line Items</td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td>
+                    $ItemDetail$
+                </td>
+            </tr>
+            <tr></tr>
+
+            <tr>
+                <td>
+                    <img src="$MailLogoURL$" alt="" class="img-responsive" style="height: 33px; width: 200px;" />
+                </td>
+            </tr>
+            <tr>
+                <td style="font-weight: bold">$RegisterCompany$</td>
+            </tr>
+            <tr>
+                <td>$RegisterAddress$</td>
+            </tr>
+
+            <tr>
+                <td>
+                    <span style="color: green;">Please consider the environment before printing this e-mail.</span>
+                    <br />
+                    This is a system generated mail. Please do not reply back to this email ID. You are advised to login to eProcurement system for more details. We recommend making your Password confidential as confidentiality is completely Users’s responsibility.
+                    <br />
+                </td>
+            </tr>
+        </table>
+</body>
+</html>

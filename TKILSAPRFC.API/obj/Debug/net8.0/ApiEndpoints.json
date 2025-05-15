@@ -1,0 +1,49 @@
+[
+  {
+    "ContainingType": "TKILSAPRFC.API.Controllers.ConnectionController",
+    "Method": "ConnectionTest",
+    "RelativePath": "api/v1/Connection/ConnectionPing",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TKILSAPRFC.API.Controllers.LoginController",
+    "Method": "UserLogin",
+    "RelativePath": "api/v1/Login/User",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserLoginVM",
+        "Type": "TKILSAPRFC.Model.ViewModels.UserLoginVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TKILSAPRFC.API.Controllers.MasterController",
+    "Method": "GetPRByDateRange",
+    "RelativePath": "api/v1/Master/GetPRByDateRange",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "FromDate",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ToDate",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

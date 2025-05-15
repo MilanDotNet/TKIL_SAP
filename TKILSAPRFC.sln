@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TKILSAPRFC.API", "TKILSAPRFC.API\TKILSAPRFC.API.csproj", "{C4588DC6-C809-4131-B674-226867402EF5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TKILSAPRFC.Core", "TKILSAPRFC.Core\TKILSAPRFC.Core.csproj", "{A5DB9A23-D5EC-4BED-8C8A-F51022427A0C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TKILSAPRFC.Infrastructure", "TKILSAPRFC.Infrastructure\TKILSAPRFC.Infrastructure.csproj", "{21638F7E-5298-4688-8776-79A55FFEF6EC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TKILSAPRFC.Model", "TKILSAPRFC.Model\TKILSAPRFC.Model.csproj", "{201CBBA9-1D69-4B6A-B442-6B85C83CA424}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TKILSAPRFC.Service", "TKILSAPRFC.Service\TKILSAPRFC.Service.csproj", "{2562506E-8450-40D3-AA9D-B709792B5CC4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9193B601-3831-49F3-93AD-D40C8941BBC9}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NwRfcNet", "NwRfcNet\NwRfcNet.csproj", "{98776348-4535-3240-596F-0ABA9FB0E513}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4588DC6-C809-4131-B674-226867402EF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4588DC6-C809-4131-B674-226867402EF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4588DC6-C809-4131-B674-226867402EF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4588DC6-C809-4131-B674-226867402EF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5DB9A23-D5EC-4BED-8C8A-F51022427A0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5DB9A23-D5EC-4BED-8C8A-F51022427A0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5DB9A23-D5EC-4BED-8C8A-F51022427A0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5DB9A23-D5EC-4BED-8C8A-F51022427A0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21638F7E-5298-4688-8776-79A55FFEF6EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21638F7E-5298-4688-8776-79A55FFEF6EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21638F7E-5298-4688-8776-79A55FFEF6EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21638F7E-5298-4688-8776-79A55FFEF6EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{201CBBA9-1D69-4B6A-B442-6B85C83CA424}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{201CBBA9-1D69-4B6A-B442-6B85C83CA424}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{201CBBA9-1D69-4B6A-B442-6B85C83CA424}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{201CBBA9-1D69-4B6A-B442-6B85C83CA424}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2562506E-8450-40D3-AA9D-B709792B5CC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2562506E-8450-40D3-AA9D-B709792B5CC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2562506E-8450-40D3-AA9D-B709792B5CC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2562506E-8450-40D3-AA9D-B709792B5CC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98776348-4535-3240-596F-0ABA9FB0E513}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98776348-4535-3240-596F-0ABA9FB0E513}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98776348-4535-3240-596F-0ABA9FB0E513}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98776348-4535-3240-596F-0ABA9FB0E513}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = .
+		SolutionGuid = {6A58489A-656D-4C70-BD54-CB6C0E059976}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,285 @@
+**** Log file opened by process 60008 at 2025-05-09 16:08:16 (UTC+05:30 India Standard Time)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: D:\Project\DummyProject\TKIL_SAP\SAPConsoleApp\bin\Debug\SAPConsoleApp.exe
+Working directory: D:\Project\DummyProject\TKIL_SAP\TKILSAPRFC.API
+Operating system:  Professional 64-bit 
+Processor: 8x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: SAFALSOFT31, IP address: 192.168.3.31, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2025-05-09 16:08:16.960 [Thread 1]
+Failure to create pool for destination QA (ORIGINAL) [NAME=QA ASHOST=10.66.38.115 SYSNR=00 SYSID=QI1 USER=SAFAL_COMUSR PASSWD=******** CLIENT=100 LANG=EN POOL_SIZE=5]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.66.38.115:3300' not reached
+TIME        Fri May 09 16:08:16 2025
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.66.38.115:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     2
+
+   at SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2025-05-09 16:08:16.983 [Thread 1]
+[NAME=QA ASHOST=10.66.38.115 SYSNR=00 SYSID=QI1 USER=SAFAL_COMUSR PASSWD=******** CLIENT=100 LANG=EN POOL_SIZE=5]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.66.38.115:3300' not reached
+TIME        Fri May 09 16:08:16 2025
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.66.38.115:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     2
+
+   at SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   at SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   at SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   at SAP.Middleware.Connector.RfcDestination.Ping()
+**** Log file opened by process 39284 at 2025-05-09 16:10:10 (UTC+05:30 India Standard Time)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: D:\Project\DummyProject\TKIL_SAP\SAPConsoleApp\bin\Debug\SAPConsoleApp.exe
+Working directory: D:\Project\DummyProject\TKIL_SAP\TKILSAPRFC.API
+Operating system:  Professional 64-bit 
+Processor: 8x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: SAFALSOFT31, IP address: 192.168.3.31, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2025-05-09 16:10:10.672 [Thread 1]
+Failure to create pool for destination QA (ORIGINAL) [NAME=QA ASHOST=10.66.38.115 SYSNR=00 SYSID=QI1 USER=SAFAL_COMUSR PASSWD=******** CLIENT=100 LANG=EN POOL_SIZE=5]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.66.38.115:3300' not reached
+TIME        Fri May 09 16:10:10 2025
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.66.38.115:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     2
+
+   at SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2025-05-09 16:10:10.679 [Thread 1]
+[NAME=QA ASHOST=10.66.38.115 SYSNR=00 SYSID=QI1 USER=SAFAL_COMUSR PASSWD=******** CLIENT=100 LANG=EN POOL_SIZE=5]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.66.38.115:3300' not reached
+TIME        Fri May 09 16:10:10 2025
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.66.38.115:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     2
+
+   at SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   at SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   at SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   at SAP.Middleware.Connector.RfcDestination.Ping()
+**** Log file opened by process 42864 at 2025-05-12 17:02:21 (UTC+05:30 India Standard Time)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: D:\Project\DummyProject\TKIL_SAP\SAPConsoleApp\bin\Debug\SAPConsoleApp.exe
+Working directory: D:\Project\DummyProject\TKIL_SAP\TKILSAPRFC.API
+Operating system:  Professional 64-bit 
+Processor: 8x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: SAFALSOFT31, IP address: 192.168.3.31, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2025-05-12 17:02:21.970 [Thread 1]
+Failure to create pool for destination QA (ORIGINAL) [NAME=QA ASHOST=10.66.38.115 SYSNR=00 SYSID=QI1 USER=SAFAL_COMUSR PASSWD=******** CLIENT=100 LANG=EN POOL_SIZE=5]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.66.38.115:3300' not reached
+TIME        Mon May 12 17:02:21 2025
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.66.38.115:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     2
+
+   at SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2025-05-12 17:02:21.982 [Thread 1]
+[NAME=QA ASHOST=10.66.38.115 SYSNR=00 SYSID=QI1 USER=SAFAL_COMUSR PASSWD=******** CLIENT=100 LANG=EN POOL_SIZE=5]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.66.38.115:3300' not reached
+TIME        Mon May 12 17:02:21 2025
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.66.38.115:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     2
+
+   at SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   at SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   at SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   at SAP.Middleware.Connector.RfcDestination.Ping()
+**** Log file opened by process 40052 at 2025-05-12 17:04:43 (UTC+05:30 India Standard Time)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: D:\Project\DummyProject\TKIL_SAP\SAPConsoleApp\bin\Debug\SAPConsoleApp.exe
+Working directory: D:\Project\DummyProject\TKIL_SAP\TKILSAPRFC.API
+Operating system:  Professional 64-bit 
+Processor: 8x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: SAFALSOFT31, IP address: 192.168.3.31, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2025-05-12 17:04:43.339 [Thread 1]
+Failure to create pool for destination QA (ORIGINAL) [NAME=QA ASHOST=10.66.38.115 SYSNR=00 SYSID=QI1 USER=SAFAL_COMUSR PASSWD=******** CLIENT=100 LANG=EN POOL_SIZE=5]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.66.38.115:3300' not reached
+TIME        Mon May 12 17:04:43 2025
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.66.38.115:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     2
+
+   at SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2025-05-12 17:04:43.350 [Thread 1]
+[NAME=QA ASHOST=10.66.38.115 SYSNR=00 SYSID=QI1 USER=SAFAL_COMUSR PASSWD=******** CLIENT=100 LANG=EN POOL_SIZE=5]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.66.38.115:3300' not reached
+TIME        Mon May 12 17:04:43 2025
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.66.38.115:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     2
+
+   at SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   at SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   at SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   at SAP.Middleware.Connector.RfcDestination.Ping()
+**** Log file opened by process 44532 at 2025-05-12 17:32:12 (UTC+05:30 India Standard Time)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: D:\Project\DummyProject\TKIL_SAP_EXE\SAPConsoleApp\bin\Debug\SAPConsoleApp.exe
+Working directory: D:\Project\DummyProject\TKIL_SAP\TKILSAPRFC.API
+Operating system:  Professional 64-bit 
+Processor: 8x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: SAFALSOFT31, IP address: 192.168.3.31, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2025-05-12 17:32:12.987 [Thread 1]
+Failure to create pool for destination QA (ORIGINAL) [NAME=QA ASHOST=10.66.38.115 SYSNR=00 SYSID=QI1 USER=SAFAL_COMUSR PASSWD=******** CLIENT=100 LANG=EN POOL_SIZE=5]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.66.38.115:3300' not reached
+TIME        Mon May 12 17:32:12 2025
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.66.38.115:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     2
+
+   at SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2025-05-12 17:32:13.001 [Thread 1]
+[NAME=QA ASHOST=10.66.38.115 SYSNR=00 SYSID=QI1 USER=SAFAL_COMUSR PASSWD=******** CLIENT=100 LANG=EN POOL_SIZE=5]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.66.38.115:3300' not reached
+TIME        Mon May 12 17:32:12 2025
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.66.38.115:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     2
+
+   at SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   at SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   at SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   at SAP.Middleware.Connector.RfcDestination.Ping()

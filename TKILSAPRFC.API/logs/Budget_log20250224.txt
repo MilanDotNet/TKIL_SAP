@@ -1,0 +1,20 @@
+2025-02-24 12:17:53.843 +05:30 [INF] 24-Feb-25 12:17:53 PM - This is a Budget log entry.{
+  "PlanningCategory": "BUDGET01",
+  "LedgerFiscalYear": "2024",
+  "FiscalPeriod": "3",
+  "CompanyCode": "WHF2",
+  "CompanyCodeName": "Welspun One Fund-2",
+  "FiscalYear": "2024",
+  "CostCenter": "",
+  "CostCenterName": "",
+  "costElementGroup": "4016_CE",
+  "GLAccount": "70015001",
+  "GLAccountName": "Sttlmt of AUC",
+  "GLAccountGroup": "YBA000_CE~4016_CE",
+  "AmountInCompanyCodeCurrency": "700000.00",
+  "CompanyCodeCurrency": "INR",
+  "WBSElement": "F2/031/01/02/01",
+  "WBSElementDescription": "Physical Survey",
+  "Project": "W/031",
+  "ProjectDescription": "Vadamadurai"
+}

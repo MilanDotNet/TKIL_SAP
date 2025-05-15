@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "SAP_Connector/1.0.0": {
+        "dependencies": {
+          "SapNwRfc": "1.4.0"
+        },
+        "runtime": {
+          "SAP_Connector.dll": {}
+        }
+      },
+      "SapNwRfc/1.4.0": {
+        "runtime": {
+          "lib/netstandard2.1/SapNwRfcDotNet.dll": {
+            "assemblyVersion": "1.4.0.0",
+            "fileVersion": "1.4.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SAP_Connector/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SapNwRfc/1.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2J7qzVLWHqY5DOgASmeBD8YQBs6ouNfuDJZ08oxYfeFlVyxE6PxsAN748lN3XIdbTicJdFPiBD55sK5vA6towA==",
+      "path": "sapnwrfc/1.4.0",
+      "hashPath": "sapnwrfc.1.4.0.nupkg.sha512"
+    }
+  }
+}

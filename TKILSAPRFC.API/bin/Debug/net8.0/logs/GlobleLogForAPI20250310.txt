@@ -1,0 +1,60 @@
+2025-03-10 14:31:46.120 +05:30 [INF] User profile is available. Using 'C:\Users\Milan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-10 14:31:51.146 +05:30 [INF] Now listening on: https://localhost:7100
+2025-03-10 14:31:51.147 +05:30 [INF] Now listening on: http://localhost:5299
+2025-03-10 14:31:51.333 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-10 14:31:51.333 +05:30 [INF] Hosting environment: Development
+2025-03-10 14:31:51.333 +05:30 [INF] Content root path: D:\Project\SVN\SvnTunnelAPI\TunnelAPI\ProcureSENS.API
+2025-03-10 14:31:58.969 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7100/swagger/index.html - null null
+2025-03-10 14:32:01.444 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7100/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-10 14:32:01.444 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7100/_vs/browserLink - null null
+2025-03-10 14:32:01.445 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7100/swagger/index.html - 200 null text/html;charset=utf-8 2485.7326ms
+2025-03-10 14:32:01.452 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7100/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript; charset=utf-8 7.1734ms
+2025-03-10 14:32:01.549 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7100/_vs/browserLink - 200 null text/javascript; charset=UTF-8 104.5054ms
+2025-03-10 14:32:01.579 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7100/swagger/v1/swagger.json - null null
+2025-03-10 14:32:01.615 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7100/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 36.7166ms
+2025-03-10 14:33:32.982 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7100/api/v1/Login/User - application/json 53
+2025-03-10 14:33:33.030 +05:30 [INF] CORS policy execution successful.
+2025-03-10 14:33:33.132 +05:30 [INF] Executing endpoint 'ProcureSENS.API.Controllers.LoginController.UserLogin (ProcureSENS.API)'
+2025-03-10 14:33:33.156 +05:30 [INF] Route matched with {action = "UserLogin", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserLogin(ProcureSENS.Model.ViewModels.UserLoginVM) on controller ProcureSENS.API.Controllers.LoginController (ProcureSENS.API).
+2025-03-10 14:33:34.994 +05:30 [INF] Executing OkObjectResult, writing value of type 'ProcureSENS.Core.Helpers.ApiResponse`1[[ProcureSENS.Model.ViewModels.AuthResponseVm, ProcureSENS.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-10 14:33:35.018 +05:30 [INF] Executed action ProcureSENS.API.Controllers.LoginController.UserLogin (ProcureSENS.API) in 1858.5236ms
+2025-03-10 14:33:35.019 +05:30 [INF] Executed endpoint 'ProcureSENS.API.Controllers.LoginController.UserLogin (ProcureSENS.API)'
+2025-03-10 14:33:35.022 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7100/api/v1/Login/User - 200 null application/json; charset=utf-8 2039.9579ms
+2025-03-10 14:34:25.988 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7100/api/v1/BudgetMaster/Budget - application/json 2589925
+2025-03-10 14:34:26.137 +05:30 [INF] CORS policy execution successful.
+2025-03-10 14:34:27.199 +05:30 [INF] Executing endpoint 'ProcureSENS.API.Controllers.BudgetMasterController.SendBudgetMaster (ProcureSENS.API)'
+2025-03-10 14:34:27.206 +05:30 [INF] Route matched with {action = "SendBudgetMaster", controller = "BudgetMaster"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SendBudgetMaster(ProcureSENS.Model.ViewModels.BudgetMasterListWrapper) on controller ProcureSENS.API.Controllers.BudgetMasterController (ProcureSENS.API).
+2025-03-10 14:37:22.999 +05:30 [INF] Executed action ProcureSENS.API.Controllers.BudgetMasterController.SendBudgetMaster (ProcureSENS.API) in 175793.2247ms
+2025-03-10 14:37:23.001 +05:30 [INF] Executed endpoint 'ProcureSENS.API.Controllers.BudgetMasterController.SendBudgetMaster (ProcureSENS.API)'
+2025-03-10 14:37:23.072 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'dbo.TBL_BudgetMasterAPI'.
+   at ProcureSENS.Infrastructure.Repository.BudgetRepository.Budget(BudgetMasterListWrapper Budget) in D:\Project\SVN\SvnTunnelAPI\TunnelAPI\ProcureSENS.Infrastructure\Repository\BudgetRepository.cs:line 75
+   at ProcureSENS.Service.Services.BudgetService.Budget(BudgetMasterListWrapper Budget) in D:\Project\SVN\SvnTunnelAPI\TunnelAPI\ProcureSENS.Service\Services\BudgetService.cs:line 28
+   at ProcureSENS.API.Controllers.BudgetMasterController.SendBudgetMaster(BudgetMasterListWrapper BudgetMaster) in D:\Project\SVN\SvnTunnelAPI\TunnelAPI\ProcureSENS.API\Controllers\BudgetMasterController.cs:line 22
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+ClientConnectionId:3cee84ba-c72a-4ec1-88fd-f91b54194bff
+Error Number:208,State:1,Class:16
+2025-03-10 14:37:23.414 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7100/api/v1/BudgetMaster/Budget - 500 null application/json 177426.0431ms
+2025-03-10 14:37:43.564 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7100/api/v1/BudgetMaster/Budget - application/json 2589925
+2025-03-10 14:37:43.600 +05:30 [INF] CORS policy execution successful.
+2025-03-10 14:37:44.299 +05:30 [INF] Executing endpoint 'ProcureSENS.API.Controllers.BudgetMasterController.SendBudgetMaster (ProcureSENS.API)'
+2025-03-10 14:37:44.299 +05:30 [INF] Route matched with {action = "SendBudgetMaster", controller = "BudgetMaster"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SendBudgetMaster(ProcureSENS.Model.ViewModels.BudgetMasterListWrapper) on controller ProcureSENS.API.Controllers.BudgetMasterController (ProcureSENS.API).
+2025-03-10 14:41:18.006 +05:30 [INF] Executing OkObjectResult, writing value of type 'ProcureSENS.Core.Helpers.ApiResponse`1[[ProcureSENS.Model.ViewModels.ResponseMsg, ProcureSENS.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-10 14:41:18.015 +05:30 [INF] Executed action ProcureSENS.API.Controllers.BudgetMasterController.SendBudgetMaster (ProcureSENS.API) in 213715.2483ms
+2025-03-10 14:41:18.015 +05:30 [INF] Executed endpoint 'ProcureSENS.API.Controllers.BudgetMasterController.SendBudgetMaster (ProcureSENS.API)'
+2025-03-10 14:41:18.018 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7100/api/v1/BudgetMaster/Budget - 200 null application/json; charset=utf-8 214454.6504ms

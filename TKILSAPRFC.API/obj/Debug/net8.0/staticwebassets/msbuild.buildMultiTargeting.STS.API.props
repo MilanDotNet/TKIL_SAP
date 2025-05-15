@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\STS.API.props" />
+</Project>

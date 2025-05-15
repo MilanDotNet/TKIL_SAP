@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "+igagVSJ2XkSadRKzUtPiuTIH6NQe4rj/jfZE5ZeG/U=",
+  "Source": "STS.API",
+  "BasePath": "_content/STS.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
