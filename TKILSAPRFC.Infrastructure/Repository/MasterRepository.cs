@@ -7,6 +7,8 @@ using NwRfcNet;
 using NwRfcNet.TypeMapper;
 using static TKILSAPRFC.Model.ViewModels.mdl_PR;
 using System.Runtime.InteropServices;
+using TKILSAPRFC.Infrastructure.Common;
+
 
 
 namespace TKILSAPRFC.Infrastructure.Repository
@@ -34,13 +36,10 @@ namespace TKILSAPRFC.Infrastructure.Repository
                 _Rfcconnection.Open();
                 _Rfcconnection.Ping();
 
+
                 Console.WriteLine("SAP connection is active.");
                 Console.WriteLine("---------------------------------------------------------------");
-                DateTime utcNow = DateTime.UtcNow;
-                string timeZoneId = RuntimeInformation.IsOSPlatform(OSPlatform.Windows)? "India Standard Time": "Asia/Kolkata";
-                TimeZoneInfo istZone = TimeZoneInfo.FindSystemTimeZoneById(timeZoneId);
-                DateTime istTime = TimeZoneInfo.ConvertTimeFromUtc(utcNow, istZone);
-                Console.WriteLine("Start Time: " + istTime.ToString("hh:mm:ss tt _ dd-MMM-yyyy"));
+                Console.WriteLine("Start Time: " + CommonFunc.GetCurrentIndiaTimeFormatted());
 
                 var mapper = _Rfcconnection.Mapper;
                 Configure(mapper);
@@ -71,11 +70,8 @@ namespace TKILSAPRFC.Infrastructure.Repository
                     Console.WriteLine($"| {srNo,-5} |  {row.PR_NUMBER,-12} | {row.PR_TYPE,-10} | {row.PR_TYPE_DESC,-20} |");
                     srNo++;
                 }
-                DateTime utcNow2 = DateTime.UtcNow;
-                string timeZoneId2 = RuntimeInformation.IsOSPlatform(OSPlatform.Windows) ? "India Standard Time" : "Asia/Kolkata";
-                TimeZoneInfo istZone2 = TimeZoneInfo.FindSystemTimeZoneById(timeZoneId2);
-                DateTime istTime2 = TimeZoneInfo.ConvertTimeFromUtc(utcNow2, istZone2);
-                Console.WriteLine("End Time: " + istTime2.ToString("hh:mm:ss tt _ dd-MMM-yyyy"));
+
+                Console.WriteLine("End Time: " + CommonFunc.GetCurrentIndiaTimeFormatted());
                 Console.WriteLine("Success");
                 msg.msg = "Successful. Data retrieved.";
                 msg.code = 200;

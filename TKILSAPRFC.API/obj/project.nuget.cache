@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UV8+DZ1U76c=",
+  "dgSpecHash": "CYAvOr7ksyk=",
   "success": true,
-  "projectFilePath": "D:\\Project\\DummyProject\\TKIL_SAP\\TKILSAPRFC.API\\TKILSAPRFC.API.csproj",
+  "projectFilePath": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.API\\TKILSAPRFC.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Milan\\.nuget\\packages\\antlr\\3.4.1.9004\\antlr.3.4.1.9004.nupkg.sha512",
     "C:\\Users\\Milan\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",

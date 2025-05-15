@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xO5Yy4d5lFk=",
+  "dgSpecHash": "1u+DdZgBByg=",
   "success": true,
-  "projectFilePath": "D:\\Project\\DummyProject\\TKIL_SAP\\NwRfcNet\\NwRfcNet.csproj",
+  "projectFilePath": "D:\\Project\\GitHub\\TKIL_SAP\\NwRfcNet\\NwRfcNet.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Milan\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.1\\microsoft.netcore.platforms.1.1.1.nupkg.sha512",
     "C:\\Users\\Milan\\.nuget\\packages\\microsoft.netcore.targets\\1.1.3\\microsoft.netcore.targets.1.1.3.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Project\\DummyProject\\TKIL_SAP\\TKILSAPRFC.Service\\TKILSAPRFC.Service.csproj": {}
+    "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Service\\TKILSAPRFC.Service.csproj": {}
   },
   "projects": {
-    "D:\\Project\\DummyProject\\TKIL_SAP\\NwRfcNet\\NwRfcNet.csproj": {
+    "D:\\Project\\GitHub\\TKIL_SAP\\NwRfcNet\\NwRfcNet.csproj": {
       "version": "0.5.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\DummyProject\\TKIL_SAP\\NwRfcNet\\NwRfcNet.csproj",
+        "projectUniqueName": "D:\\Project\\GitHub\\TKIL_SAP\\NwRfcNet\\NwRfcNet.csproj",
         "projectName": "NwRfcNet",
-        "projectPath": "D:\\Project\\DummyProject\\TKIL_SAP\\NwRfcNet\\NwRfcNet.csproj",
+        "projectPath": "D:\\Project\\GitHub\\TKIL_SAP\\NwRfcNet\\NwRfcNet.csproj",
         "packagesPath": "C:\\Users\\Milan\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\DummyProject\\TKIL_SAP\\NwRfcNet\\obj\\",
+        "outputPath": "D:\\Project\\GitHub\\TKIL_SAP\\NwRfcNet\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -76,14 +76,14 @@
         }
       }
     },
-    "D:\\Project\\DummyProject\\TKIL_SAP\\TKILSAPRFC.Core\\TKILSAPRFC.Core.csproj": {
+    "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Core\\TKILSAPRFC.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\DummyProject\\TKIL_SAP\\TKILSAPRFC.Core\\TKILSAPRFC.Core.csproj",
+        "projectUniqueName": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Core\\TKILSAPRFC.Core.csproj",
         "projectName": "TKILSAPRFC.Core",
-        "projectPath": "D:\\Project\\DummyProject\\TKIL_SAP\\TKILSAPRFC.Core\\TKILSAPRFC.Core.csproj",
+        "projectPath": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Core\\TKILSAPRFC.Core.csproj",
         "packagesPath": "C:\\Users\\Milan\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\DummyProject\\TKIL_SAP\\TKILSAPRFC.Core\\obj\\",
+        "outputPath": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -104,8 +104,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Project\\DummyProject\\TKIL_SAP\\TKILSAPRFC.Model\\TKILSAPRFC.Model.csproj": {
-                "projectPath": "D:\\Project\\DummyProject\\TKIL_SAP\\TKILSAPRFC.Model\\TKILSAPRFC.Model.csproj"
+              "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Model\\TKILSAPRFC.Model.csproj": {
+                "projectPath": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Model\\TKILSAPRFC.Model.csproj"
               }
             }
           }
@@ -189,14 +189,14 @@
         }
       }
     },
-    "D:\\Project\\DummyProject\\TKIL_SAP\\TKILSAPRFC.Infrastructure\\TKILSAPRFC.Infrastructure.csproj": {
+    "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Infrastructure\\TKILSAPRFC.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\DummyProject\\TKIL_SAP\\TKILSAPRFC.Infrastructure\\TKILSAPRFC.Infrastructure.csproj",
+        "projectUniqueName": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Infrastructure\\TKILSAPRFC.Infrastructure.csproj",
         "projectName": "TKILSAPRFC.Infrastructure",
-        "projectPath": "D:\\Project\\DummyProject\\TKIL_SAP\\TKILSAPRFC.Infrastructure\\TKILSAPRFC.Infrastructure.csproj",
+        "projectPath": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Infrastructure\\TKILSAPRFC.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Milan\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\DummyProject\\TKIL_SAP\\TKILSAPRFC.Infrastructure\\obj\\",
+        "outputPath": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -217,14 +217,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Project\\DummyProject\\TKIL_SAP\\NwRfcNet\\NwRfcNet.csproj": {
-                "projectPath": "D:\\Project\\DummyProject\\TKIL_SAP\\NwRfcNet\\NwRfcNet.csproj"
+              "D:\\Project\\GitHub\\TKIL_SAP\\NwRfcNet\\NwRfcNet.csproj": {
+                "projectPath": "D:\\Project\\GitHub\\TKIL_SAP\\NwRfcNet\\NwRfcNet.csproj"
               },
-              "D:\\Project\\DummyProject\\TKIL_SAP\\TKILSAPRFC.Core\\TKILSAPRFC.Core.csproj": {
-                "projectPath": "D:\\Project\\DummyProject\\TKIL_SAP\\TKILSAPRFC.Core\\TKILSAPRFC.Core.csproj"
+              "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Core\\TKILSAPRFC.Core.csproj": {
+                "projectPath": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Core\\TKILSAPRFC.Core.csproj"
               },
-              "D:\\Project\\DummyProject\\TKIL_SAP\\TKILSAPRFC.Model\\TKILSAPRFC.Model.csproj": {
-                "projectPath": "D:\\Project\\DummyProject\\TKIL_SAP\\TKILSAPRFC.Model\\TKILSAPRFC.Model.csproj"
+              "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Model\\TKILSAPRFC.Model.csproj": {
+                "projectPath": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Model\\TKILSAPRFC.Model.csproj"
               }
             }
           }
@@ -314,14 +314,14 @@
         }
       }
     },
-    "D:\\Project\\DummyProject\\TKIL_SAP\\TKILSAPRFC.Model\\TKILSAPRFC.Model.csproj": {
+    "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Model\\TKILSAPRFC.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\DummyProject\\TKIL_SAP\\TKILSAPRFC.Model\\TKILSAPRFC.Model.csproj",
+        "projectUniqueName": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Model\\TKILSAPRFC.Model.csproj",
         "projectName": "TKILSAPRFC.Model",
-        "projectPath": "D:\\Project\\DummyProject\\TKIL_SAP\\TKILSAPRFC.Model\\TKILSAPRFC.Model.csproj",
+        "projectPath": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Model\\TKILSAPRFC.Model.csproj",
         "packagesPath": "C:\\Users\\Milan\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\DummyProject\\TKIL_SAP\\TKILSAPRFC.Model\\obj\\",
+        "outputPath": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -342,8 +342,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Project\\DummyProject\\TKIL_SAP\\NwRfcNet\\NwRfcNet.csproj": {
-                "projectPath": "D:\\Project\\DummyProject\\TKIL_SAP\\NwRfcNet\\NwRfcNet.csproj"
+              "D:\\Project\\GitHub\\TKIL_SAP\\NwRfcNet\\NwRfcNet.csproj": {
+                "projectPath": "D:\\Project\\GitHub\\TKIL_SAP\\NwRfcNet\\NwRfcNet.csproj"
               }
             }
           }
@@ -413,14 +413,14 @@
         }
       }
     },
-    "D:\\Project\\DummyProject\\TKIL_SAP\\TKILSAPRFC.Service\\TKILSAPRFC.Service.csproj": {
+    "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Service\\TKILSAPRFC.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\DummyProject\\TKIL_SAP\\TKILSAPRFC.Service\\TKILSAPRFC.Service.csproj",
+        "projectUniqueName": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Service\\TKILSAPRFC.Service.csproj",
         "projectName": "TKILSAPRFC.Service",
-        "projectPath": "D:\\Project\\DummyProject\\TKIL_SAP\\TKILSAPRFC.Service\\TKILSAPRFC.Service.csproj",
+        "projectPath": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Service\\TKILSAPRFC.Service.csproj",
         "packagesPath": "C:\\Users\\Milan\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\DummyProject\\TKIL_SAP\\TKILSAPRFC.Service\\obj\\",
+        "outputPath": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -441,11 +441,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Project\\DummyProject\\TKIL_SAP\\TKILSAPRFC.Core\\TKILSAPRFC.Core.csproj": {
-                "projectPath": "D:\\Project\\DummyProject\\TKIL_SAP\\TKILSAPRFC.Core\\TKILSAPRFC.Core.csproj"
+              "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Core\\TKILSAPRFC.Core.csproj": {
+                "projectPath": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Core\\TKILSAPRFC.Core.csproj"
               },
-              "D:\\Project\\DummyProject\\TKIL_SAP\\TKILSAPRFC.Infrastructure\\TKILSAPRFC.Infrastructure.csproj": {
-                "projectPath": "D:\\Project\\DummyProject\\TKIL_SAP\\TKILSAPRFC.Infrastructure\\TKILSAPRFC.Infrastructure.csproj"
+              "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Infrastructure\\TKILSAPRFC.Infrastructure.csproj": {
+                "projectPath": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Infrastructure\\TKILSAPRFC.Infrastructure.csproj"
               }
             }
           }
