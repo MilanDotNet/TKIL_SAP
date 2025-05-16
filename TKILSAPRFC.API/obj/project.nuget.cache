@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "CYAvOr7ksyk=",
+  "dgSpecHash": "mTKEpIqRNhQ=",
   "success": true,
   "projectFilePath": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.API\\TKILSAPRFC.API.csproj",
   "expectedPackageFiles": [
@@ -61,7 +61,6 @@
     "C:\\Users\\Milan\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\Milan\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\Milan\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
-    "C:\\Users\\Milan\\.nuget\\packages\\sapnwrfc\\1.4.0\\sapnwrfc.1.4.0.nupkg.sha512",
     "C:\\Users\\Milan\\.nuget\\packages\\serilog\\4.2.0\\serilog.4.2.0.nupkg.sha512",
     "C:\\Users\\Milan\\.nuget\\packages\\serilog.aspnetcore\\9.0.0\\serilog.aspnetcore.9.0.0.nupkg.sha512",
     "C:\\Users\\Milan\\.nuget\\packages\\serilog.extensions.hosting\\9.0.0\\serilog.extensions.hosting.9.0.0.nupkg.sha512",

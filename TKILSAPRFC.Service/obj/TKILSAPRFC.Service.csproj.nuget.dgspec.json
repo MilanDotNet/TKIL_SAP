@@ -273,10 +273,6 @@
               "target": "Package",
               "version": "[110.0.0, )"
             },
-            "SapNwRfc": {
-              "target": "Package",
-              "version": "[1.4.0, )"
-            },
             "Serilog": {
               "target": "Package",
               "version": "[4.2.0, )"

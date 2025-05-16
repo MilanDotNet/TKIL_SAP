@@ -47,18 +47,14 @@ namespace TKILSAPRFC.API.Handlers
             services.TryAddTransient<IMasterRepository, MasterRepository>();
             services.AddScoped<RfcConnection>(provider =>
             {
-                var config = ConnectionRepository.GetParameters();
-
                 var connection = new RfcConnection(
-                                    userName: config.User,
-                                    password: config.Password,
-                                    hostname: config.AppServerHost,
-                                    client: config.Client,
-                                    language: config.Language,
-                                    systemNumber: config.SystemNumber,
-                                    sapRouter: config.SapRouter,
-                                    sncQop: config.SncQop,
-                                    sncMyname: config.Name
+                                    userName: "SAFAL_COMUSR",
+                                    password: @"GSj2C%w4Ykz{ERTNt]P]/3N<WlS\FD6#kT@b#4#R",
+                                    hostname: "10.66.38.115",
+                                    client: "100",
+                                    language: "EN",
+                                    systemNumber: "00",
+                                    sncMyname: "QA"
                                 );
                 return connection;
             });

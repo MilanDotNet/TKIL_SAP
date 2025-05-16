@@ -3,36 +3,24 @@
   "WorkspaceRootPath": "D:\\Project\\GitHub\\TKIL_SAP\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{201CBBA9-1D69-4B6A-B442-6B85C83CA424}|TKILSAPRFC.Model\\TKILSAPRFC.Model.csproj|d:\\project\\github\\tkil_sap\\tkilsaprfc.model\\viewmodels\\mdl_pr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{201CBBA9-1D69-4B6A-B442-6B85C83CA424}|TKILSAPRFC.Model\\TKILSAPRFC.Model.csproj|solutionrelative:tkilsaprfc.model\\viewmodels\\mdl_pr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{21638F7E-5298-4688-8776-79A55FFEF6EC}|TKILSAPRFC.Infrastructure\\TKILSAPRFC.Infrastructure.csproj|d:\\project\\github\\tkil_sap\\tkilsaprfc.infrastructure\\repository\\masterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{21638F7E-5298-4688-8776-79A55FFEF6EC}|TKILSAPRFC.Infrastructure\\TKILSAPRFC.Infrastructure.csproj|solutionrelative:tkilsaprfc.infrastructure\\repository\\masterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21638F7E-5298-4688-8776-79A55FFEF6EC}|TKILSAPRFC.Infrastructure\\TKILSAPRFC.Infrastructure.csproj|d:\\project\\github\\tkil_sap\\tkilsaprfc.infrastructure\\common\\commonfunc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21638F7E-5298-4688-8776-79A55FFEF6EC}|TKILSAPRFC.Infrastructure\\TKILSAPRFC.Infrastructure.csproj|solutionrelative:tkilsaprfc.infrastructure\\common\\commonfunc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C4588DC6-C809-4131-B674-226867402EF5}|TKILSAPRFC.API\\TKILSAPRFC.API.csproj|d:\\project\\github\\tkil_sap\\tkilsaprfc.api\\handlers\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4588DC6-C809-4131-B674-226867402EF5}|TKILSAPRFC.API\\TKILSAPRFC.API.csproj|solutionrelative:tkilsaprfc.api\\handlers\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21638F7E-5298-4688-8776-79A55FFEF6EC}|TKILSAPRFC.Infrastructure\\TKILSAPRFC.Infrastructure.csproj|d:\\project\\github\\tkil_sap\\tkilsaprfc.infrastructure\\repository\\connectionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21638F7E-5298-4688-8776-79A55FFEF6EC}|TKILSAPRFC.Infrastructure\\TKILSAPRFC.Infrastructure.csproj|solutionrelative:tkilsaprfc.infrastructure\\repository\\connectionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98776348-4535-3240-596F-0ABA9FB0E513}|NwRfcNet\\NwRfcNet.csproj|d:\\project\\github\\tkil_sap\\nwrfcnet\\rfcconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98776348-4535-3240-596F-0ABA9FB0E513}|NwRfcNet\\NwRfcNet.csproj|solutionrelative:nwrfcnet\\rfcconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C4588DC6-C809-4131-B674-226867402EF5}|TKILSAPRFC.API\\TKILSAPRFC.API.csproj|d:\\project\\github\\tkil_sap\\tkilsaprfc.api\\controllers\\mastercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C4588DC6-C809-4131-B674-226867402EF5}|TKILSAPRFC.API\\TKILSAPRFC.API.csproj|solutionrelative:tkilsaprfc.api\\controllers\\mastercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{201CBBA9-1D69-4B6A-B442-6B85C83CA424}|TKILSAPRFC.Model\\TKILSAPRFC.Model.csproj|d:\\project\\github\\tkil_sap\\tkilsaprfc.model\\viewmodels\\mdl_pr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{201CBBA9-1D69-4B6A-B442-6B85C83CA424}|TKILSAPRFC.Model\\TKILSAPRFC.Model.csproj|solutionrelative:tkilsaprfc.model\\viewmodels\\mdl_pr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C4588DC6-C809-4131-B674-226867402EF5}|TKILSAPRFC.API\\TKILSAPRFC.API.csproj|d:\\project\\github\\tkil_sap\\tkilsaprfc.api\\controllers\\connectioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4588DC6-C809-4131-B674-226867402EF5}|TKILSAPRFC.API\\TKILSAPRFC.API.csproj|solutionrelative:tkilsaprfc.api\\controllers\\connectioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C4588DC6-C809-4131-B674-226867402EF5}|TKILSAPRFC.API\\TKILSAPRFC.API.csproj|d:\\project\\github\\tkil_sap\\tkilsaprfc.api\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4588DC6-C809-4131-B674-226867402EF5}|TKILSAPRFC.API\\TKILSAPRFC.API.csproj|solutionrelative:tkilsaprfc.api\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{98776348-4535-3240-596F-0ABA9FB0E513}|NwRfcNet\\NwRfcNet.csproj|d:\\project\\github\\tkil_sap\\nwrfcnet\\rfcconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98776348-4535-3240-596F-0ABA9FB0E513}|NwRfcNet\\NwRfcNet.csproj|solutionrelative:nwrfcnet\\rfcconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,78 +30,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ServiceExtensions.cs",
-              "DocumentMoniker": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.API\\Handlers\\ServiceExtensions.cs",
-              "RelativeDocumentMoniker": "TKILSAPRFC.API\\Handlers\\ServiceExtensions.cs",
-              "ToolTip": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.API\\Handlers\\ServiceExtensions.cs",
-              "RelativeToolTip": "TKILSAPRFC.API\\Handlers\\ServiceExtensions.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAYwDEAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T05:07:10.819Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ConnectionRepository.cs",
-              "DocumentMoniker": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Infrastructure\\Repository\\ConnectionRepository.cs",
-              "RelativeDocumentMoniker": "TKILSAPRFC.Infrastructure\\Repository\\ConnectionRepository.cs",
-              "ToolTip": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Infrastructure\\Repository\\ConnectionRepository.cs",
-              "RelativeToolTip": "TKILSAPRFC.Infrastructure\\Repository\\ConnectionRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T05:07:24.029Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MasterRepository.cs",
-              "DocumentMoniker": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Infrastructure\\Repository\\MasterRepository.cs",
-              "RelativeDocumentMoniker": "TKILSAPRFC.Infrastructure\\Repository\\MasterRepository.cs",
-              "ToolTip": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Infrastructure\\Repository\\MasterRepository.cs",
-              "RelativeToolTip": "TKILSAPRFC.Infrastructure\\Repository\\MasterRepository.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAYwEgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T05:07:55.133Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CommonFunc.cs",
-              "DocumentMoniker": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Infrastructure\\Common\\CommonFunc.cs",
-              "RelativeDocumentMoniker": "TKILSAPRFC.Infrastructure\\Common\\CommonFunc.cs",
-              "ToolTip": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Infrastructure\\Common\\CommonFunc.cs",
-              "RelativeToolTip": "TKILSAPRFC.Infrastructure\\Common\\CommonFunc.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T11:56:22.342Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "mdl_PR.cs",
-              "DocumentMoniker": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Model\\ViewModels\\mdl_PR.cs",
-              "RelativeDocumentMoniker": "TKILSAPRFC.Model\\ViewModels\\mdl_PR.cs",
-              "ToolTip": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Model\\ViewModels\\mdl_PR.cs",
-              "RelativeToolTip": "TKILSAPRFC.Model\\ViewModels\\mdl_PR.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAwwEEAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T09:25:48.292Z"
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
@@ -123,34 +48,62 @@
               "RelativeDocumentMoniker": "NwRfcNet\\RfcConnection.cs",
               "ToolTip": "D:\\Project\\GitHub\\TKIL_SAP\\NwRfcNet\\RfcConnection.cs",
               "RelativeToolTip": "NwRfcNet\\RfcConnection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAnwMoAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T08:50:10.393Z",
+              "WhenOpened": "2025-05-16T08:44:49.509Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.API\\Startup.cs",
-              "RelativeDocumentMoniker": "TKILSAPRFC.API\\Startup.cs",
-              "ToolTip": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.API\\Startup.cs",
-              "RelativeToolTip": "TKILSAPRFC.API\\Startup.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "ConnectionController.cs",
+              "DocumentMoniker": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.API\\Controllers\\ConnectionController.cs",
+              "RelativeDocumentMoniker": "TKILSAPRFC.API\\Controllers\\ConnectionController.cs",
+              "ToolTip": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.API\\Controllers\\ConnectionController.cs",
+              "RelativeToolTip": "TKILSAPRFC.API\\Controllers\\ConnectionController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T08:45:40.604Z"
+              "WhenOpened": "2025-05-16T08:42:58.044Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "MasterController.cs",
               "DocumentMoniker": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.API\\Controllers\\MasterController.cs",
               "RelativeDocumentMoniker": "TKILSAPRFC.API\\Controllers\\MasterController.cs",
               "ToolTip": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.API\\Controllers\\MasterController.cs",
               "RelativeToolTip": "TKILSAPRFC.API\\Controllers\\MasterController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAnwBUAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T05:11:53.178Z"
+              "WhenOpened": "2025-05-16T06:43:16.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "mdl_PR.cs",
+              "DocumentMoniker": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Model\\ViewModels\\mdl_PR.cs",
+              "RelativeDocumentMoniker": "TKILSAPRFC.Model\\ViewModels\\mdl_PR.cs",
+              "ToolTip": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Model\\ViewModels\\mdl_PR.cs",
+              "RelativeToolTip": "TKILSAPRFC.Model\\ViewModels\\mdl_PR.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAtwCUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T13:23:45.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MasterRepository.cs",
+              "DocumentMoniker": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Infrastructure\\Repository\\MasterRepository.cs",
+              "RelativeDocumentMoniker": "TKILSAPRFC.Infrastructure\\Repository\\MasterRepository.cs",
+              "ToolTip": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Infrastructure\\Repository\\MasterRepository.cs",
+              "RelativeToolTip": "TKILSAPRFC.Infrastructure\\Repository\\MasterRepository.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAIwEwAAADPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T12:44:53.575Z",
+              "EditorCaption": ""
             }
           ]
         }

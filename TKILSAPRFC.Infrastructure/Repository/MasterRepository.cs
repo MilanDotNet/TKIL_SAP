@@ -8,6 +8,7 @@ using NwRfcNet.TypeMapper;
 using static TKILSAPRFC.Model.ViewModels.mdl_PR;
 using System.Runtime.InteropServices;
 using TKILSAPRFC.Infrastructure.Common;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 
 
@@ -68,6 +69,15 @@ namespace TKILSAPRFC.Infrastructure.Repository
                 foreach (var row in output.EX_T_PR_INFO)
                 {
                     Console.WriteLine($"| {srNo,-5} |  {row.PR_NUMBER,-12} | {row.PR_TYPE,-10} | {row.PR_TYPE_DESC,-20} |");
+                    if (row.PR_ITM_INFO != null && row.PR_ITM_INFO.Any())
+                    {
+                        int srNo_itm = 1;
+                        foreach (var item in row.PR_ITM_INFO)
+                        {
+                            Console.WriteLine($" SrNo: {srNo_itm,-5},  PR_ITM_NO: {item.PR_ITM_NO}, PR_ITM_STATUS: {item.PR_ITM_STATUS}, PR_ITM_RL_DATE: {item.PR_ITM_RL_DATE}, PR_ITM_MATERIAL: {item.PR_ITM_MATERIAL}, PR_ITM_MATERIAL_DSC: {item.PR_ITM_MATERIAL_DSC}, ");
+                            srNo_itm++;
+                        }
+                    }
                     srNo++;
                 }
 
