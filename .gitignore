@@ -83,3 +83,4 @@ npm-debug.log*
 
 ## Ignore Yarn lock file if not using
 yarn.lock
+.vs/
