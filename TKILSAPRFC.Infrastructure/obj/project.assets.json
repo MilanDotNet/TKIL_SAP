@@ -764,15 +764,6 @@
           }
         }
       },
-      "SapNwRfc/1.4.0": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.1/SapNwRfcDotNet.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.1/SapNwRfcDotNet.dll": {}
-        }
-      },
       "Serilog/4.2.0": {
         "type": "package",
         "compile": {
@@ -2448,19 +2439,6 @@
         "version.txt"
       ]
     },
-    "SapNwRfc/1.4.0": {
-      "sha512": "2J7qzVLWHqY5DOgASmeBD8YQBs6ouNfuDJZ08oxYfeFlVyxE6PxsAN748lN3XIdbTicJdFPiBD55sK5vA6towA==",
-      "type": "package",
-      "path": "sapnwrfc/1.4.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netstandard2.0/SapNwRfcDotNet.dll",
-        "lib/netstandard2.1/SapNwRfcDotNet.dll",
-        "sapnwrfc.1.4.0.nupkg.sha512",
-        "sapnwrfc.nuspec"
-      ]
-    },
     "Serilog/4.2.0": {
       "sha512": "gmoWVOvKgbME8TYR+gwMf7osROiWAURterc6Rt2dQyX7wtjZYpqFiA/pY6ztjGQKKV62GGCyOcmtP1UKMHgSmA==",
       "type": "package",
@@ -4007,7 +3985,6 @@
       "Microsoft.Extensions.Configuration.Abstractions >= 7.0.0",
       "NwRfcNet >= 0.7.0",
       "RestSharp >= 110.0.0",
-      "SapNwRfc >= 1.4.0",
       "Serilog >= 4.2.0",
       "System.Configuration.ConfigurationManager >= 5.0.0",
       "System.Data.SqlClient >= 4.8.5",
@@ -4103,10 +4080,6 @@
           "RestSharp": {
             "target": "Package",
             "version": "[110.0.0, )"
-          },
-          "SapNwRfc": {
-            "target": "Package",
-            "version": "[1.4.0, )"
           },
           "Serilog": {
             "target": "Package",

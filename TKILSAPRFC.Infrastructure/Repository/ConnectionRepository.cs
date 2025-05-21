@@ -11,8 +11,9 @@ using TKILSAPRFC.Infrastructure.Helper;
 using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
-using SapNwRfc;
+//using SapNwRfc;
 using NwRfcNet;
+using TKILSAPRFC.Infrastructure.Common;
 
 
 namespace TKILSAPRFC.Infrastructure.Repository
@@ -21,12 +22,12 @@ namespace TKILSAPRFC.Infrastructure.Repository
     {
         private readonly ICurrentUser currentUser;
         private readonly IConfiguration _configuration;
-        private readonly SapConnection _connection;
-        public ConnectionRepository(ICurrentUser currentUser, IConfiguration configuration, SapConnection connection)
+        private readonly RfcConnection _Rfcconnection;
+        public ConnectionRepository(ICurrentUser currentUser, IConfiguration configuration, RfcConnection rfcconnection)
         {
             this.currentUser = currentUser;
             _configuration = configuration;
-            _connection = connection;
+            _Rfcconnection = rfcconnection;
         }
 
         public async Task<ResponseMsg> ConnectionTest()
@@ -34,69 +35,23 @@ namespace TKILSAPRFC.Infrastructure.Repository
             var msg = new ResponseMsg();
             try
             {
-                bool isConnected = TestConnection();
-                msg.msg = isConnected ? "Success" : "Not connected";
+                _Rfcconnection.Open();
+                _Rfcconnection.Ping();
+
+                Console.WriteLine("SAP connection is active.");
+                Console.WriteLine("---------------------------------------------------------------");
+                Console.WriteLine("Connection Time: " + CommonFunc.GetCurrentIndiaTimeFormatted());
+
+                msg.msg = "Success";
                 msg.code = 200;
                 return msg;
             }
             catch (Exception ex)
             {
-                msg.msg = "Error: " + ex.Message;
+                msg.msg = "Connection Fail : " + ex.Message;
                 msg.code = 500;
                 return msg;
             }
-        }
-
-        public bool TestConnection()
-        {
-            try
-            {
-                if (_connection == null)
-                    return false;
-
-                return _connection.IsValid;
-            }
-            catch
-            {
-                return false;
-            }
-        }
-
-        public static SapConnectionParameters GetParameters()
-        {
-            return new SapConnectionParameters
-            {
-                Name = "QA",
-                AppServerHost = "10.66.38.115",
-                SystemNumber = "00",
-                User = "SAFAL_COMUSR",
-                Password = @"GSj2C%w4Ykz{ERTNt]P]/3N<WlS\FD6#kT@b#4#R",
-                Client = "100",
-                Language = "EN",
-                PoolSize = "10"
-            };
-        }
-
-        public static RfcConnection CreateConnection()
-        {
-            return new RfcConnection(
-                sncMyname: "QA",
-                hostname: "10.66.38.115",
-                systemNumber: "00",
-                userName: "SAFAL_COMUSR",
-                password: @"GSj2C%w4Ykz{ERTNt]P]/3N<WlS\FD6#kT@b#4#R",
-                client: "100",
-                language: "EN"
-            );
-        }
-
-        public static string GetConnectionString()
-        {
-            var p = GetParameters();
-
-            return $"NAME={p.Name};ASHOST={p.AppServerHost};SYSNR={p.SystemNumber};" +
-                   $"USER={p.User};PASSWD={p.Password};CLIENT={p.Client};LANG={p.Language};" +
-                   $"POOL_SIZE={p.PoolSize}";
         }
     }
 }

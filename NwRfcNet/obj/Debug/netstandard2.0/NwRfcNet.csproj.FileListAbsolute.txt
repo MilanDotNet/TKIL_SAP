@@ -18,3 +18,14 @@ D:\Project\DummyProject\TKIL_SAP\NwRfcNet\obj\Debug\netstandard2.0\NwRfcNet.Asse
 D:\Project\DummyProject\TKIL_SAP\NwRfcNet\obj\Debug\netstandard2.0\NwRfcNet.csproj.CoreCompileInputs.cache
 D:\Project\DummyProject\TKIL_SAP\NwRfcNet\obj\Debug\netstandard2.0\NwRfcNet.dll
 D:\Project\DummyProject\TKIL_SAP\NwRfcNet\obj\Debug\netstandard2.0\NwRfcNet.pdb
+D:\Project\GitHub\TKIL_SAP\NwRfcNet\bin\Debug\netstandard2.0\NwRfcNet.deps.json
+D:\Project\GitHub\TKIL_SAP\NwRfcNet\bin\Debug\netstandard2.0\NwRfcNet.dll
+D:\Project\GitHub\TKIL_SAP\NwRfcNet\bin\Debug\netstandard2.0\NwRfcNet.pdb
+D:\Project\GitHub\TKIL_SAP\NwRfcNet\obj\Debug\netstandard2.0\NwRfcNet.csproj.AssemblyReference.cache
+D:\Project\GitHub\TKIL_SAP\NwRfcNet\obj\Debug\netstandard2.0\NwRfcNet.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\GitHub\TKIL_SAP\NwRfcNet\obj\Debug\netstandard2.0\NwRfcNet.AssemblyInfoInputs.cache
+D:\Project\GitHub\TKIL_SAP\NwRfcNet\obj\Debug\netstandard2.0\NwRfcNet.AssemblyInfo.cs
+D:\Project\GitHub\TKIL_SAP\NwRfcNet\obj\Debug\netstandard2.0\NwRfcNet.csproj.CoreCompileInputs.cache
+D:\Project\GitHub\TKIL_SAP\NwRfcNet\obj\Debug\netstandard2.0\NwRfcNet.sourcelink.json
+D:\Project\GitHub\TKIL_SAP\NwRfcNet\obj\Debug\netstandard2.0\NwRfcNet.dll
+D:\Project\GitHub\TKIL_SAP\NwRfcNet\obj\Debug\netstandard2.0\NwRfcNet.pdb

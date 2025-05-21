@@ -6,11 +6,10 @@ using System.Text.Json;
 using System.Net.Http;
 using System.Diagnostics;
 using TKILSAPRFC.Core.Helpers;
-using SapNwRfc;
 
 namespace TKILSAPRFC.API.Controllers
 {
-    public class ConnectionController : AuthorizedController
+    public class ConnectionController : AnonymousBaseController
     {
         private readonly IConnectionService _connectionService1;
         public ConnectionController(IConnectionService connectionService)

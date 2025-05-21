@@ -15,7 +15,6 @@
           "Microsoft.Extensions.Configuration.Abstractions": "7.0.0",
           "NwRfcNet": "0.5.0",
           "RestSharp": "110.0.0",
-          "SapNwRfc": "1.4.0",
           "Serilog": "4.2.0",
           "System.Configuration.ConfigurationManager": "5.0.0",
           "System.Data.SqlClient": "4.8.5",
@@ -462,14 +461,6 @@
             "rid": "win-x86",
             "assetType": "native",
             "fileVersion": "4.6.25512.1"
-          }
-        }
-      },
-      "SapNwRfc/1.4.0": {
-        "runtime": {
-          "lib/netstandard2.1/SapNwRfcDotNet.dll": {
-            "assemblyVersion": "1.4.0.0",
-            "fileVersion": "1.4.0.0"
           }
         }
       },
@@ -1108,13 +1099,6 @@
       "sha512": "sha512-YhEdSQUsTx+C8m8Bw7ar5/VesXvCFMItyZF7G1AUY+OM0VPZUOeAVpJ4Wl6fydBGUYZxojTDR3I6Bj/+BPkJNA==",
       "path": "runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0",
       "hashPath": "runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
-    },
-    "SapNwRfc/1.4.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-2J7qzVLWHqY5DOgASmeBD8YQBs6ouNfuDJZ08oxYfeFlVyxE6PxsAN748lN3XIdbTicJdFPiBD55sK5vA6towA==",
-      "path": "sapnwrfc/1.4.0",
-      "hashPath": "sapnwrfc.1.4.0.nupkg.sha512"
     },
     "Serilog/4.2.0": {
       "type": "package",

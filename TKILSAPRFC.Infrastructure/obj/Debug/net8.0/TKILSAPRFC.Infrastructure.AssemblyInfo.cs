@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TKILSAPRFC.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1af1e859d6d5bf7ea7bab049c16cfaecfa2e3c22")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2f8afa1364bfa865925d16edc93de2afe49c3d70")]
 [assembly: System.Reflection.AssemblyProductAttribute("TKILSAPRFC.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TKILSAPRFC.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

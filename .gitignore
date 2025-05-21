@@ -1,3 +1,86 @@
-*.vsidx
-*.json
-*.txt
+## Ignore build results
+bin/
+obj/
+out/
+
+## Ignore user-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Ignore Rider IDE files
+.idea/
+
+## Ignore Visual Studio Code settings
+.vscode/
+
+## Ignore Mac and Linux specific files
+.DS_Store
+*.swp
+*.swo
+
+## Ignore build artifacts
+*.dll
+*.exe
+*.app
+*.log
+
+## Ignore NuGet packages folder
+*.nupkg
+packages/
+# Uncomment if using NuGet v3 only:
+# **/project.lock.json
+
+## Ignore .NET Core generated files
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## Ignore publish directory
+publish/
+*.dbmdl
+
+## Ignore user secrets
+secrets.json
+
+## Ignore migrations if you want to exclude them
+# Migrations/
+
+## Ignore environment and launch settings
+appsettings.Development.json
+appsettings.Local.json
+launchSettings.json
+
+## Ignore logs
+*.log
+
+## Ignore Test Results
+TestResults/
+*.coverage
+*.coveragejson
+
+## Ignore JetBrains Rider / ReSharper
+_ReSharper*/
+*.DotSettings.user
+
+## Ignore Docker artifacts
+**/.dockerignore
+docker-compose.override.yml
+
+## Ignore temporary files
+*.tmp
+*.bak
+
+## Ignore global.json
+global.json
+
+## Ignore node_modules if using front-end integration
+node_modules/
+
+## Ignore npm log
+npm-debug.log*
+
+## Ignore Yarn lock file if not using
+yarn.lock
+.vs/

@@ -45,21 +45,19 @@ namespace TKILSAPRFC.API.Handlers
             services.TryAddTransient<IConnectionRepository, ConnectionRepository>();
             services.TryAddTransient<IMasterService, MasterService>();
             services.TryAddTransient<IMasterRepository, MasterRepository>();
+
+            string GetEnv(string key) => Environment.GetEnvironmentVariable(key) ?? throw new InvalidOperationException($"Missing env var: {key}");
             services.AddScoped<RfcConnection>(provider =>
             {
-                var config = ConnectionRepository.GetParameters();
-
                 var connection = new RfcConnection(
-                                    userName: config.User,
-                                    password: config.Password,
-                                    hostname: config.AppServerHost,
-                                    client: config.Client,
-                                    language: config.Language,
-                                    systemNumber: config.SystemNumber,
-                                    sapRouter: config.SapRouter,
-                                    sncQop: config.SncQop,
-                                    sncMyname: config.Name
-                                );
+                    userName: GetEnv("SAP_USERNAME"),
+                    password: GetEnv("SAP_PASSWORD"),
+                    hostname: GetEnv("SAP_HOST"),
+                    client: GetEnv("SAP_CLIENT"),
+                    language: GetEnv("SAP_LANG"),
+                    systemNumber: GetEnv("SAP_SYSNR"),
+                    sncMyname: GetEnv("SAP_SNC_NAME")
+                );
                 return connection;
             });
         }
