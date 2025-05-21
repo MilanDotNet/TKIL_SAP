@@ -4023,11 +4023,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Project\\DummyProject\\TKIL_SAP\\TKILSAPRFC.Infrastructure\\TKILSAPRFC.Infrastructure.csproj",
+      "projectUniqueName": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Infrastructure\\TKILSAPRFC.Infrastructure.csproj",
       "projectName": "TKILSAPRFC.Infrastructure",
-      "projectPath": "D:\\Project\\DummyProject\\TKIL_SAP\\TKILSAPRFC.Infrastructure\\TKILSAPRFC.Infrastructure.csproj",
+      "projectPath": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Infrastructure\\TKILSAPRFC.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\Milan\\.nuget\\packages\\",
-      "outputPath": "D:\\Project\\DummyProject\\TKIL_SAP\\TKILSAPRFC.Infrastructure\\obj\\",
+      "outputPath": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4048,14 +4048,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Project\\DummyProject\\TKIL_SAP\\NwRfcNet\\NwRfcNet.csproj": {
-              "projectPath": "D:\\Project\\DummyProject\\TKIL_SAP\\NwRfcNet\\NwRfcNet.csproj"
+            "D:\\Project\\GitHub\\TKIL_SAP\\NwRfcNet\\NwRfcNet.csproj": {
+              "projectPath": "D:\\Project\\GitHub\\TKIL_SAP\\NwRfcNet\\NwRfcNet.csproj"
             },
-            "D:\\Project\\DummyProject\\TKIL_SAP\\TKILSAPRFC.Core\\TKILSAPRFC.Core.csproj": {
-              "projectPath": "D:\\Project\\DummyProject\\TKIL_SAP\\TKILSAPRFC.Core\\TKILSAPRFC.Core.csproj"
+            "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Core\\TKILSAPRFC.Core.csproj": {
+              "projectPath": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Core\\TKILSAPRFC.Core.csproj"
             },
-            "D:\\Project\\DummyProject\\TKIL_SAP\\TKILSAPRFC.Model\\TKILSAPRFC.Model.csproj": {
-              "projectPath": "D:\\Project\\DummyProject\\TKIL_SAP\\TKILSAPRFC.Model\\TKILSAPRFC.Model.csproj"
+            "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Model\\TKILSAPRFC.Model.csproj": {
+              "projectPath": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Model\\TKILSAPRFC.Model.csproj"
             }
           }
         }

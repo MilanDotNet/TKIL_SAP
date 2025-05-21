@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "v8uCj1vT6+M=",
+  "dgSpecHash": "gwzKrEgqUek=",
   "success": true,
-  "projectFilePath": "D:\\Project\\DummyProject\\TKIL_SAP\\TKILSAPRFC.Infrastructure\\TKILSAPRFC.Infrastructure.csproj",
+  "projectFilePath": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Infrastructure\\TKILSAPRFC.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Milan\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Milan\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",

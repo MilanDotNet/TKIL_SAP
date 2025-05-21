@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Project\\DummyProject\\TKIL_SAP\\TKILSAPRFC.Model\\TKILSAPRFC.Model.csproj": {}
+    "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Model\\TKILSAPRFC.Model.csproj": {}
   },
   "projects": {
-    "D:\\Project\\DummyProject\\TKIL_SAP\\NwRfcNet\\NwRfcNet.csproj": {
+    "D:\\Project\\GitHub\\TKIL_SAP\\NwRfcNet\\NwRfcNet.csproj": {
       "version": "0.5.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\DummyProject\\TKIL_SAP\\NwRfcNet\\NwRfcNet.csproj",
+        "projectUniqueName": "D:\\Project\\GitHub\\TKIL_SAP\\NwRfcNet\\NwRfcNet.csproj",
         "projectName": "NwRfcNet",
-        "projectPath": "D:\\Project\\DummyProject\\TKIL_SAP\\NwRfcNet\\NwRfcNet.csproj",
+        "projectPath": "D:\\Project\\GitHub\\TKIL_SAP\\NwRfcNet\\NwRfcNet.csproj",
         "packagesPath": "C:\\Users\\Milan\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\DummyProject\\TKIL_SAP\\NwRfcNet\\obj\\",
+        "outputPath": "D:\\Project\\GitHub\\TKIL_SAP\\NwRfcNet\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -76,14 +76,14 @@
         }
       }
     },
-    "D:\\Project\\DummyProject\\TKIL_SAP\\TKILSAPRFC.Model\\TKILSAPRFC.Model.csproj": {
+    "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Model\\TKILSAPRFC.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\DummyProject\\TKIL_SAP\\TKILSAPRFC.Model\\TKILSAPRFC.Model.csproj",
+        "projectUniqueName": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Model\\TKILSAPRFC.Model.csproj",
         "projectName": "TKILSAPRFC.Model",
-        "projectPath": "D:\\Project\\DummyProject\\TKIL_SAP\\TKILSAPRFC.Model\\TKILSAPRFC.Model.csproj",
+        "projectPath": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Model\\TKILSAPRFC.Model.csproj",
         "packagesPath": "C:\\Users\\Milan\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\DummyProject\\TKIL_SAP\\TKILSAPRFC.Model\\obj\\",
+        "outputPath": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -104,8 +104,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Project\\DummyProject\\TKIL_SAP\\NwRfcNet\\NwRfcNet.csproj": {
-                "projectPath": "D:\\Project\\DummyProject\\TKIL_SAP\\NwRfcNet\\NwRfcNet.csproj"
+              "D:\\Project\\GitHub\\TKIL_SAP\\NwRfcNet\\NwRfcNet.csproj": {
+                "projectPath": "D:\\Project\\GitHub\\TKIL_SAP\\NwRfcNet\\NwRfcNet.csproj"
               }
             }
           }

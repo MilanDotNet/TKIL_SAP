@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "a+F/SzCp7XI=",
+  "dgSpecHash": "ycuZwVrwfIM=",
   "success": true,
-  "projectFilePath": "D:\\Project\\DummyProject\\TKIL_SAP\\TKILSAPRFC.Model\\TKILSAPRFC.Model.csproj",
+  "projectFilePath": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Model\\TKILSAPRFC.Model.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Milan\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Milan\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
