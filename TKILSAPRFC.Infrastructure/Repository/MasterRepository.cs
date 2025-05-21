@@ -66,12 +66,12 @@ namespace TKILSAPRFC.Infrastructure.Repository
                 Console.WriteLine($"| {"SrNo",-5} | {"PR_NUMBER",-20} | {"PR_TYPE",-15} | {"PR_TYPE_DESC",-20} |");
                 Console.WriteLine("---------------------------------------------------------------");
                 int srNo = 1;
+                int srNo_itm = 1;
                 foreach (var row in output.EX_T_PR_INFO)
                 {
                     Console.WriteLine($"| {srNo,-5} |  {row.PR_NUMBER,-12} | {row.PR_TYPE,-10} | {row.PR_TYPE_DESC,-20} |");
                     if (row.PR_ITM_INFO != null && row.PR_ITM_INFO.Any())
                     {
-                        int srNo_itm = 1;
                         foreach (var item in row.PR_ITM_INFO)
                         {
                             Console.WriteLine($" SrNo: {srNo_itm,-5},  PR_ITM_NO: {item.PR_ITM_NO}, PR_ITM_STATUS: {item.PR_ITM_STATUS}, PR_ITM_RL_DATE: {item.PR_ITM_RL_DATE}, PR_ITM_MATERIAL: {item.PR_ITM_MATERIAL}, PR_ITM_MATERIAL_DSC: {item.PR_ITM_MATERIAL_DSC}, ");
@@ -80,10 +80,11 @@ namespace TKILSAPRFC.Infrastructure.Repository
                     }
                     srNo++;
                 }
-
+                srNo = srNo - 1;
+                srNo_itm = srNo_itm - 1;
                 Console.WriteLine("End Time: " + CommonFunc.GetCurrentIndiaTimeFormatted());
                 Console.WriteLine("Success");
-                msg.msg = "Successful. Data retrieved.";
+                msg.msg = "Successful. Data retrieved. : PR Count - " + srNo + " : Total Pr vise Item Count - " + srNo_itm;
                 msg.code = 200;
                 return msg;
             }
