@@ -22,6 +22,88 @@
         }
       }
     },
+    "/api/v1/GetPRByDateRange/GetPRByDateRange": {
+      "get": {
+        "tags": [
+          "GetPRByDateRange"
+        ],
+        "parameters": [
+          {
+            "name": "FromDate",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "ToDate",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/GetPRByPRNO/GetPRByPRNO": {
+      "get": {
+        "tags": [
+          "GetPRByPRNO"
+        ],
+        "parameters": [
+          {
+            "name": "PRNO",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/GetPRNumberByDateRange/GetPRNumberByDateRange": {
+      "get": {
+        "tags": [
+          "GetPRNumberByDateRange"
+        ],
+        "parameters": [
+          {
+            "name": "FromDate",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "ToDate",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/api/v1/Login/User": {
       "post": {
         "tags": [
@@ -46,36 +128,6 @@
             }
           }
         },
-        "responses": {
-          "200": {
-            "description": "Success"
-          }
-        }
-      }
-    },
-    "/api/v1/Master/GetPRByDateRange": {
-      "get": {
-        "tags": [
-          "Master"
-        ],
-        "parameters": [
-          {
-            "name": "FromDate",
-            "in": "query",
-            "style": "form",
-            "schema": {
-              "type": "string"
-            }
-          },
-          {
-            "name": "ToDate",
-            "in": "query",
-            "style": "form",
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
         "responses": {
           "200": {
             "description": "Success"

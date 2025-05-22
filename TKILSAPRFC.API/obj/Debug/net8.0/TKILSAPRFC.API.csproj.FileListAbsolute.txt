@@ -134,7 +134,6 @@ D:\Project\DummyProject\TKIL_SAP\TKILSAPRFC.API\obj\Debug\net8.0\TKILSAPRFC.API.
 D:\Project\DummyProject\TKIL_SAP\TKILSAPRFC.API\obj\Debug\net8.0\TKILSAPRFC.API.genruntimeconfig.cache
 D:\Project\DummyProject\TKIL_SAP\TKILSAPRFC.API\obj\Debug\net8.0\ref\TKILSAPRFC.API.dll
 D:\Project\GitHub\TKIL_SAP\TKILSAPRFC.API\bin\Debug\net8.0\Services\ConnectionService.cs
-D:\Project\GitHub\TKIL_SAP\TKILSAPRFC.API\bin\Debug\net8.0\Services\MasterService.cs
 D:\Project\GitHub\TKIL_SAP\TKILSAPRFC.API\bin\Debug\net8.0\web.config
 D:\Project\GitHub\TKIL_SAP\TKILSAPRFC.API\bin\Debug\net8.0\appsettings.Development.json
 D:\Project\GitHub\TKIL_SAP\TKILSAPRFC.API\bin\Debug\net8.0\appsettings.json
@@ -268,3 +267,6 @@ D:\Project\GitHub\TKIL_SAP\TKILSAPRFC.API\obj\Debug\net8.0\refint\TKILSAPRFC.API
 D:\Project\GitHub\TKIL_SAP\TKILSAPRFC.API\obj\Debug\net8.0\TKILSAPRFC.API.pdb
 D:\Project\GitHub\TKIL_SAP\TKILSAPRFC.API\obj\Debug\net8.0\TKILSAPRFC.API.genruntimeconfig.cache
 D:\Project\GitHub\TKIL_SAP\TKILSAPRFC.API\obj\Debug\net8.0\ref\TKILSAPRFC.API.dll
+D:\Project\GitHub\TKIL_SAP\TKILSAPRFC.API\bin\Debug\net8.0\Services\GetPRByDateRangeService.cs
+D:\Project\GitHub\TKIL_SAP\TKILSAPRFC.API\bin\Debug\net8.0\Services\GetPRNumberByDateRangeService.cs
+D:\Project\GitHub\TKIL_SAP\TKILSAPRFC.API\bin\Debug\net8.0\Services\GetPRByPRNOService.cs

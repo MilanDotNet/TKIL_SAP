@@ -6,19 +6,19 @@ using System.Net;
 
 namespace TKILSAPRFC.Service.Services
 {
-    public class MasterService : IMasterService
+    public class GetPRByPRNOService : IGetPRByPRNOService
     {
         private readonly HttpClient _client;
-        private readonly IMasterRepository _MasterRepository;
-        public MasterService(IMasterRepository MasterRepository, HttpClient client)
+        private readonly IGetPRByPRNORepository _GetPRByPRNORepository;
+        public GetPRByPRNOService(IGetPRByPRNORepository GetPRByPRNORepository, HttpClient client)
         {
-            this._MasterRepository = MasterRepository;
+            this._GetPRByPRNORepository = GetPRByPRNORepository;
             this._client = client;
         }
         
-        public async Task<ApiResponse<ResponseMsg>> PRByDateRange(string FromDate, string ToDate)
+        public async Task<ApiResponse<ResponseMsg>> GetPRByPRNO(string PRNO)
         {
-            ResponseMsg msg = await _MasterRepository.PRByDateRange(FromDate, ToDate);
+            ResponseMsg msg = await _GetPRByPRNORepository.GetPRByPRNO(PRNO);
             if (msg.code == 200)
             {
                 return ApiResponseHelper.CreateApiResponse(msg, HttpStatusCode.OK);

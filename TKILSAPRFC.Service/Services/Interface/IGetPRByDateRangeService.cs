@@ -4,7 +4,7 @@ using TKILSAPRFC.Model.ViewModels;
 
 namespace TKILSAPRFC.Service.Services.Interface
 {
-    public interface IMasterService
+    public interface IGetPRByDateRangeService
     {
         public Task<ApiResponse<ResponseMsg>> PRByDateRange(string FromDate, string ToDate);
     }

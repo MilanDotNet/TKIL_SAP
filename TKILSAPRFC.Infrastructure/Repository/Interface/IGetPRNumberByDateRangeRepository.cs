@@ -9,8 +9,8 @@ using System.Threading.Tasks;
 
 namespace TKILSAPRFC.Infrastructure.Repository.Interface
 {
-    public interface IMasterRepository
+    public interface IGetPRNumberByDateRangeRepository
     {
-        public Task<ResponseMsg> PRByDateRange(string FromDate, string ToDate);
+        public Task<ResponseMsg> GetPRNumberByDateRange(string FromDate, string ToDate);
     }
 }

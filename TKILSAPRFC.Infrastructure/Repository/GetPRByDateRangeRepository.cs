@@ -5,7 +5,7 @@ using TKILSAPRFC.Model.ViewModels;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 using NwRfcNet;
 using NwRfcNet.TypeMapper;
-using static TKILSAPRFC.Model.ViewModels.mdl_PR;
+using static TKILSAPRFC.Model.ViewModels.mdl_PRNew;
 using System.Runtime.InteropServices;
 using TKILSAPRFC.Infrastructure.Common;
 using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
@@ -14,13 +14,13 @@ using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace TKILSAPRFC.Infrastructure.Repository
 {
-    public class MasterRepository : IMasterRepository
+    public class GetPRByDateRangeRepository : IGetPRByDateRangeRepository
     {
         private readonly ICurrentUser currentUser;
         private readonly IConfiguration _configuration;
         private readonly RfcConnection _Rfcconnection;
 
-        public MasterRepository(ICurrentUser currentUser, IConfiguration configuration, RfcConnection rfcconnection)
+        public GetPRByDateRangeRepository(ICurrentUser currentUser, IConfiguration configuration, RfcConnection rfcconnection)
         {
             this.currentUser = currentUser;
             this._configuration = configuration;
