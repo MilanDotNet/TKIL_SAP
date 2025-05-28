@@ -188,6 +188,7 @@ namespace TKILSAPRFC.Infrastructure.Repository
                     }
                     if (output.EX_T_PR_INFO[i].PR_NUMBER == null || !output.EX_T_PR_INFO[i].PR_NUMBER.Any())
                     {
+                        output.EX_T_PR_INFO[i].PR_ATTCH_INFO = null;
                         Console.WriteLine("No data retrieved.");
                         msg.msg = "No data retrieved.";
                         msg.code = 204;
@@ -200,7 +201,7 @@ namespace TKILSAPRFC.Infrastructure.Repository
                             byte[] EX_V_XSTRING = CommonFunc.DecodeStringToBytes(output.EX_T_PR_INFO[i].PR_ATTCH_INFO[j].ATTCHMNT_CNTNT.TrimEnd());
                             //byte[] EX_V_XSTRING = output.EX_T_PR_INFO[i].PR_ATTCH_INFO[j].ATTCHMNT_CNTNT;
                             string KeyName = string.Empty;
-
+                            output.EX_T_PR_INFO[i].PR_ATTCH_INFO[j].ATTCHMNT_CNTNT = null;
                             if (EX_V_XSTRING != null)
                             {
                                 string FileWebName = output.EX_T_PR_INFO[i].PR_ATTCH_INFO[j].ATTCHMNT_DESCR.Trim().Replace(" ", "_").Replace(".", "_").Replace("'", "") + "." + output.EX_T_PR_INFO[i].PR_ATTCH_INFO[j].ATTCHMNT_TYPE.ToLower();
@@ -443,6 +444,11 @@ namespace TKILSAPRFC.Infrastructure.Repository
                     };
                     Insert = await DataAccess.CRUDOperation("SP_GETSAPPRDATA", paraColl4, this.currentUser.UserDatabase);
                 }
+                
+                func.Dispose();
+                output = null;
+                GC.Collect();
+                GC.WaitForPendingFinalizers();
                 Console.WriteLine("Success End Time: " + CommonFunc.GetCurrentIndiaTimeFormatted());
                 msg.msg = "Successful. Data retrieved.";
                 msg.code = 200;

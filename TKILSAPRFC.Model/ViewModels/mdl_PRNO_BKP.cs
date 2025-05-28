@@ -264,8 +264,9 @@ namespace TKILSAPRFC.Model.ViewModels
                 .Property(x => x.ATTCHMNT_CREAT_TIME).HasParameterName("ATTCHMNT_CREAT_TIME").HasParameterType(RfcFieldType.Char).MaxLength(6);
             mapper.Parameter<PurchaseRequestAttachment>()
                 .Property(x => x.ATTCHMNT_DOC_SIZE).HasParameterName("ATTCHMNT_DOC_SIZE").HasParameterType(RfcFieldType.Char).MaxLength(12);
+            
             mapper.Parameter<PurchaseRequestAttachment>()
-                .Property(x => x.ATTCHMNT_CNTNT).HasParameterName("ATTCHMNT_CNTNT").HasParameterType(RfcFieldType.Char).MaxLength(999999999);
+                .Property(x => x.ATTCHMNT_CNTNT).HasParameterName("ATTCHMNT_CNTNT").HasParameterType(RfcFieldType.Char).MaxLength(99999999);
 
             //Item
             mapper.Parameter<PurchaseRequestItem>()
