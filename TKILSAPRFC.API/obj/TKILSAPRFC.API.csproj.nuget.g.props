@@ -20,6 +20,8 @@
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgWebGrease Condition=" '$(PkgWebGrease)' == '' ">C:\Users\Milan\.nuget\packages\webgrease\1.5.2</PkgWebGrease>
+    <PkgAWSSDK_Core Condition=" '$(PkgAWSSDK_Core)' == '' ">C:\Users\Milan\.nuget\packages\awssdk.core\4.0.0.6</PkgAWSSDK_Core>
+    <PkgAWSSDK_S3 Condition=" '$(PkgAWSSDK_S3)' == '' ">C:\Users\Milan\.nuget\packages\awssdk.s3\4.0.0.7</PkgAWSSDK_S3>
     <PkgMicrosoft_Extensions_ApiDescription_Server Condition=" '$(PkgMicrosoft_Extensions_ApiDescription_Server)' == '' ">C:\Users\Milan\.nuget\packages\microsoft.extensions.apidescription.server\6.0.5</PkgMicrosoft_Extensions_ApiDescription_Server>
   </PropertyGroup>
 </Project>

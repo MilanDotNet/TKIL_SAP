@@ -12,5 +12,6 @@ namespace TKILSAPRFC.Infrastructure.Repository.Interface
     public interface IGetPRByPRNORepository
     {
         public Task<ResponseMsg> GetPRByPRNO(string PRNO);
+        public Task<ResponseMsg> GetPRByPRNO_C_NA(string PRNO);
     }
 }

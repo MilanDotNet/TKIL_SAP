@@ -21,5 +21,27 @@ namespace TKILSAPRFC.Infrastructure.Common
 
             return istTime.ToString("hh:mm:ss tt _ dd-MMM-yyyy");
         }
+
+        public static byte[] DecodeStringToBytes(string data)
+        {
+            if (string.IsNullOrWhiteSpace(data))
+                return Array.Empty<byte>();
+
+            
+            try
+            {
+                if (data.Length % 2 != 0)
+                    throw new FormatException("Invalid hex string length.");
+
+                byte[] bytes = new byte[data.Length / 2];
+                for (int i = 0; i < data.Length; i += 2)
+                    bytes[i / 2] = Convert.ToByte(data.Substring(i, 2), 16);
+                return bytes;
+            }
+            catch { }
+
+            throw new FormatException("String is neither valid Base64 nor Hex.");
+        }
+
     }
 }

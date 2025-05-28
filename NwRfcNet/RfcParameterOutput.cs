@@ -14,7 +14,7 @@ namespace NwRfcNet
     {
         private readonly RfcMapper _mapper;
 
-        internal RfcParameterOutput(RfcMapper mapper) => 
+        internal RfcParameterOutput(RfcMapper mapper) =>
             _mapper = mapper ?? throw new ArgumentNullException(nameof(mapper));
 
         /// <summary>
@@ -25,61 +25,68 @@ namespace NwRfcNet
         /// <returns></returns>
         internal object GetReturnParameters(IntPtr handler, Type type)
         {
-            object returnValue = Activator.CreateInstance(type);
-
-            foreach (var propMap in _mapper[type])
+            try
             {
-                PropertyMap map = propMap.Value;
+                object returnValue = Activator.CreateInstance(type);
 
-                PropertyInfo prop = returnValue.GetType()
-                    .GetProperty(map.PropertyName);
-
-                object objectValue = null;
-
-                switch (map.ParameterType)
+                foreach (var propMap in _mapper[type])
                 {
-                    case RfcFieldType.Char:
-                        objectValue = RfcChar.GetFieldValue(handler, map.RfcParameterName, map.Length)?.RfcValue;
-                        break;
+                    PropertyMap map = propMap.Value;
 
-                    case RfcFieldType.Int:
-                        objectValue = GetInt(handler, map);
-                        break;
+                    PropertyInfo prop = returnValue.GetType()
+                        .GetProperty(map.PropertyName);
 
-                    case RfcFieldType.Table:
-                        objectValue = GetTable(handler, map, prop.PropertyType);
-                        break;
+                    object objectValue = null;
 
-                    case RfcFieldType.Structure:
-                        var structHandle = GetStructure(handler, map);
-                        objectValue = GetReturnParameters(structHandle, map.PropertyType);
-                        break;
+                    switch (map.ParameterType)
+                    {
+                        case RfcFieldType.Char:
+                            objectValue = RfcChar.GetFieldValue(handler, map.RfcParameterName, map.Length)?.RfcValue;
+                            break;
 
-                    case RfcFieldType.Date:
-                        objectValue = RfcDate.GetFieldValue(handler, map.RfcParameterName)?.RfcValue;
-                        break;
+                        case RfcFieldType.Int:
+                            objectValue = GetInt(handler, map);
+                            break;
 
-                    case RfcFieldType.Time:
-                        objectValue = RfcTime.GetFieldValue(handler, map.RfcParameterName)?.RfcValue;
-                        break;
+                        case RfcFieldType.Table:
+                            objectValue = GetTable(handler, map, prop.PropertyType);
+                            break;
 
-                    case RfcFieldType.Int8:
-                        objectValue = RfcInt8.GetFieldValue(handler, map.RfcParameterName).RfcValue;
-                        break;
+                        case RfcFieldType.Structure:
+                            var structHandle = GetStructure(handler, map);
+                            objectValue = GetReturnParameters(structHandle, map.PropertyType);
+                            break;
 
-                    case RfcFieldType.Bcd:
-                        objectValue = RfcBcd.GetFieldValue(handler, map.RfcParameterName).RfcValue;
-                        break;
+                        case RfcFieldType.Date:
+                            objectValue = RfcDate.GetFieldValue(handler, map.RfcParameterName)?.RfcValue;
+                            break;
 
-                    default:
-                        throw new RfcException("Rfc Type not handled");
+                        case RfcFieldType.Time:
+                            objectValue = RfcTime.GetFieldValue(handler, map.RfcParameterName)?.RfcValue;
+                            break;
+
+                        case RfcFieldType.Int8:
+                            objectValue = RfcInt8.GetFieldValue(handler, map.RfcParameterName).RfcValue;
+                            break;
+
+                        case RfcFieldType.Bcd:
+                            objectValue = RfcBcd.GetFieldValue(handler, map.RfcParameterName).RfcValue;
+                            break;
+
+                        default:
+                            throw new RfcException("Rfc Type not handled");
+                    }
+
+                    if (objectValue != null)
+                        prop.SetValue(returnValue, objectValue);
                 }
 
-                if (objectValue != null)
-                    prop.SetValue(returnValue, objectValue);
+                return returnValue;
             }
-
-            return returnValue;
+            catch (Exception ex)
+            {
+                throw;
+            }
         }
 
 

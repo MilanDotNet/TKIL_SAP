@@ -175,6 +175,28 @@ namespace TKILSAPRFC.Infrastructure.Helper
             finally { sqlConnection.Close(); }
 
         }
+        public static async Task<int> CRUDOperation(string commandName, SqlParameter[] parameters, string dataBaseName)
+        {
+            int flg = 0;
+            SqlConnection sqlConnection = GetOpenConnection(dataBaseName);
+            try
+            {
+                SqlCommand command = new(commandName, sqlConnection);
+                command.Parameters.AddRange(parameters);
+                command.CommandType = CommandType.StoredProcedure;
+                command.CommandTimeout = connectiontimeOut;
+                await command.ExecuteNonQueryAsync();
+                flg = 1;
+                return flg;
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+            finally { sqlConnection.Close(); }
+
+        }
 
         public static T? Get<T>(string query, string dataBaseName, object? parameters = null)
         {

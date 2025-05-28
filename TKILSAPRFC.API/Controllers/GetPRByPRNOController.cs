@@ -9,7 +9,7 @@ using TKILSAPRFC.Core.Helpers;
 
 namespace TKILSAPRFC.API.Controllers
 {
-    public class GetPRByPRNOController : AnonymousBaseController
+    public class GetPRByPRNOController : AuthorizedController
     {
         private readonly IGetPRByPRNOService _GetPRByPRNOService;
         public GetPRByPRNOController(IGetPRByPRNOService GetPRByPRNOService)

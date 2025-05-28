@@ -15,6 +15,12 @@
         public string MailCompanySubject { get; set; }
         public string Username { get; set; }
         public string Password { get; set; }
+        public string ClientSAPId { get; set; }
+        public string S3BucketName { get; set; }
+        public string S3BucketKey { get; set; }
+        public string S3BucketAccessKey { get; set; }
+        public string S3BucketSecretKey { get; set; }
+        public string LocalEnvironment { get; set; }
         public string TKILSAPRFCClientAPIUrl { get; set; }
         public string SAPExePath { get; set; }
         public int SendMail { get; set; }

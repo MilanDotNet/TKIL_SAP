@@ -7,32 +7,16 @@
       "RelativeMoniker": "D:0:0:{21638F7E-5298-4688-8776-79A55FFEF6EC}|TKILSAPRFC.Infrastructure\\TKILSAPRFC.Infrastructure.csproj|solutionrelative:tkilsaprfc.infrastructure\\repository\\getprbyprnorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{201CBBA9-1D69-4B6A-B442-6B85C83CA424}|TKILSAPRFC.Model\\TKILSAPRFC.Model.csproj|d:\\project\\github\\tkil_sap\\tkilsaprfc.model\\viewmodels\\mdl_prno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{201CBBA9-1D69-4B6A-B442-6B85C83CA424}|TKILSAPRFC.Model\\TKILSAPRFC.Model.csproj|solutionrelative:tkilsaprfc.model\\viewmodels\\mdl_prno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{201CBBA9-1D69-4B6A-B442-6B85C83CA424}|TKILSAPRFC.Model\\TKILSAPRFC.Model.csproj|d:\\project\\github\\tkil_sap\\tkilsaprfc.model\\viewmodels\\mdl_prno_bkp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{201CBBA9-1D69-4B6A-B442-6B85C83CA424}|TKILSAPRFC.Model\\TKILSAPRFC.Model.csproj|solutionrelative:tkilsaprfc.model\\viewmodels\\mdl_prno_bkp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C4588DC6-C809-4131-B674-226867402EF5}|TKILSAPRFC.API\\TKILSAPRFC.API.csproj|d:\\project\\github\\tkil_sap\\tkilsaprfc.api\\controllers\\getprbyprnocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4588DC6-C809-4131-B674-226867402EF5}|TKILSAPRFC.API\\TKILSAPRFC.API.csproj|solutionrelative:tkilsaprfc.api\\controllers\\getprbyprnocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{21638F7E-5298-4688-8776-79A55FFEF6EC}|TKILSAPRFC.Infrastructure\\TKILSAPRFC.Infrastructure.csproj|d:\\project\\github\\tkil_sap\\tkilsaprfc.infrastructure\\repository\\getprnumberbydaterangerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21638F7E-5298-4688-8776-79A55FFEF6EC}|TKILSAPRFC.Infrastructure\\TKILSAPRFC.Infrastructure.csproj|solutionrelative:tkilsaprfc.infrastructure\\repository\\getprnumberbydaterangerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{201CBBA9-1D69-4B6A-B442-6B85C83CA424}|TKILSAPRFC.Model\\TKILSAPRFC.Model.csproj|d:\\project\\github\\tkil_sap\\tkilsaprfc.model\\viewmodels\\mdl_prnew.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{201CBBA9-1D69-4B6A-B442-6B85C83CA424}|TKILSAPRFC.Model\\TKILSAPRFC.Model.csproj|solutionrelative:tkilsaprfc.model\\viewmodels\\mdl_prnew.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C4588DC6-C809-4131-B674-226867402EF5}|TKILSAPRFC.API\\TKILSAPRFC.API.csproj|d:\\project\\github\\tkil_sap\\tkilsaprfc.api\\handlers\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4588DC6-C809-4131-B674-226867402EF5}|TKILSAPRFC.API\\TKILSAPRFC.API.csproj|solutionrelative:tkilsaprfc.api\\handlers\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21638F7E-5298-4688-8776-79A55FFEF6EC}|TKILSAPRFC.Infrastructure\\TKILSAPRFC.Infrastructure.csproj|d:\\project\\github\\tkil_sap\\tkilsaprfc.infrastructure\\repository\\interface\\igetprbyprnorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21638F7E-5298-4688-8776-79A55FFEF6EC}|TKILSAPRFC.Infrastructure\\TKILSAPRFC.Infrastructure.csproj|solutionrelative:tkilsaprfc.infrastructure\\repository\\interface\\igetprbyprnorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2562506E-8450-40D3-AA9D-B709792B5CC4}|TKILSAPRFC.Service\\TKILSAPRFC.Service.csproj|d:\\project\\github\\tkil_sap\\tkilsaprfc.service\\services\\getprbyprnoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2562506E-8450-40D3-AA9D-B709792B5CC4}|TKILSAPRFC.Service\\TKILSAPRFC.Service.csproj|solutionrelative:tkilsaprfc.service\\services\\getprbyprnoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2562506E-8450-40D3-AA9D-B709792B5CC4}|TKILSAPRFC.Service\\TKILSAPRFC.Service.csproj|d:\\project\\github\\tkil_sap\\tkilsaprfc.service\\services\\interface\\igetprbyprnoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2562506E-8450-40D3-AA9D-B709792B5CC4}|TKILSAPRFC.Service\\TKILSAPRFC.Service.csproj|solutionrelative:tkilsaprfc.service\\services\\interface\\igetprbyprnoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{21638F7E-5298-4688-8776-79A55FFEF6EC}|TKILSAPRFC.Infrastructure\\TKILSAPRFC.Infrastructure.csproj|d:\\project\\github\\tkil_sap\\tkilsaprfc.infrastructure\\common\\awsbucket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21638F7E-5298-4688-8776-79A55FFEF6EC}|TKILSAPRFC.Infrastructure\\TKILSAPRFC.Infrastructure.csproj|solutionrelative:tkilsaprfc.infrastructure\\common\\awsbucket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,76 +26,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ServiceExtensions.cs",
-              "DocumentMoniker": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.API\\Handlers\\ServiceExtensions.cs",
-              "RelativeDocumentMoniker": "TKILSAPRFC.API\\Handlers\\ServiceExtensions.cs",
-              "ToolTip": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.API\\Handlers\\ServiceExtensions.cs",
-              "RelativeToolTip": "TKILSAPRFC.API\\Handlers\\ServiceExtensions.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAQwDEAAABQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T10:59:04.592Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "GetPRByPRNOController.cs",
-              "DocumentMoniker": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.API\\Controllers\\GetPRByPRNOController.cs",
-              "RelativeDocumentMoniker": "TKILSAPRFC.API\\Controllers\\GetPRByPRNOController.cs",
-              "ToolTip": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.API\\Controllers\\GetPRByPRNOController.cs",
-              "RelativeToolTip": "TKILSAPRFC.API\\Controllers\\GetPRByPRNOController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAwwA4AAAAlAAAAAAAAAA==",
+              "Title": "GetPRNumberByDateRangeRepository.cs",
+              "DocumentMoniker": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Infrastructure\\Repository\\GetPRNumberByDateRangeRepository.cs",
+              "RelativeDocumentMoniker": "TKILSAPRFC.Infrastructure\\Repository\\GetPRNumberByDateRangeRepository.cs",
+              "ToolTip": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Infrastructure\\Repository\\GetPRNumberByDateRangeRepository.cs",
+              "RelativeToolTip": "TKILSAPRFC.Infrastructure\\Repository\\GetPRNumberByDateRangeRepository.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwEIAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T11:40:51.31Z",
+              "WhenOpened": "2025-05-27T06:14:39.299Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IGetPRByPRNOService.cs",
-              "DocumentMoniker": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Service\\Services\\Interface\\IGetPRByPRNOService.cs",
-              "RelativeDocumentMoniker": "TKILSAPRFC.Service\\Services\\Interface\\IGetPRByPRNOService.cs",
-              "ToolTip": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Service\\Services\\Interface\\IGetPRByPRNOService.cs",
-              "RelativeToolTip": "TKILSAPRFC.Service\\Services\\Interface\\IGetPRByPRNOService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T11:41:36.395Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "GetPRByPRNOService.cs",
-              "DocumentMoniker": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Service\\Services\\GetPRByPRNOService.cs",
-              "RelativeDocumentMoniker": "TKILSAPRFC.Service\\Services\\GetPRByPRNOService.cs",
-              "ToolTip": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Service\\Services\\GetPRByPRNOService.cs",
-              "RelativeToolTip": "TKILSAPRFC.Service\\Services\\GetPRByPRNOService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA5AAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "AWSBucket.cs",
+              "DocumentMoniker": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Infrastructure\\Common\\AWSBucket.cs",
+              "RelativeDocumentMoniker": "TKILSAPRFC.Infrastructure\\Common\\AWSBucket.cs",
+              "ToolTip": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Infrastructure\\Common\\AWSBucket.cs",
+              "RelativeToolTip": "TKILSAPRFC.Infrastructure\\Common\\AWSBucket.cs",
+              "ViewState": "AgIAAN8AAAAAAAAAAAAmwPMAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T11:42:06.426Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IGetPRByPRNORepository.cs",
-              "DocumentMoniker": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Infrastructure\\Repository\\Interface\\IGetPRByPRNORepository.cs",
-              "RelativeDocumentMoniker": "TKILSAPRFC.Infrastructure\\Repository\\Interface\\IGetPRByPRNORepository.cs",
-              "ToolTip": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Infrastructure\\Repository\\Interface\\IGetPRByPRNORepository.cs",
-              "RelativeToolTip": "TKILSAPRFC.Infrastructure\\Repository\\Interface\\IGetPRByPRNORepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T11:42:46.902Z",
-              "IsPinned": true,
+              "WhenOpened": "2025-05-27T09:15:29.709Z",
               "EditorCaption": ""
             },
             {
@@ -122,45 +71,23 @@
               "RelativeDocumentMoniker": "TKILSAPRFC.Infrastructure\\Repository\\GetPRByPRNORepository.cs",
               "ToolTip": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Infrastructure\\Repository\\GetPRByPRNORepository.cs",
               "RelativeToolTip": "TKILSAPRFC.Infrastructure\\Repository\\GetPRByPRNORepository.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAYwDkAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAALEAAAAAAAAAAAAAAMIAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T11:43:24.841Z",
-              "IsPinned": true,
+              "WhenOpened": "2025-05-27T06:31:43.766Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "mdl_PRNO.cs",
-              "DocumentMoniker": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Model\\ViewModels\\mdl_PRNO.cs",
-              "RelativeDocumentMoniker": "TKILSAPRFC.Model\\ViewModels\\mdl_PRNO.cs",
-              "ToolTip": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Model\\ViewModels\\mdl_PRNO.cs",
-              "RelativeToolTip": "TKILSAPRFC.Model\\ViewModels\\mdl_PRNO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBwAAAA4AAAAAAAAAA==",
+              "Title": "mdl_PRNO_BKP.cs",
+              "DocumentMoniker": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Model\\ViewModels\\mdl_PRNO_BKP.cs",
+              "RelativeDocumentMoniker": "TKILSAPRFC.Model\\ViewModels\\mdl_PRNO_BKP.cs",
+              "ToolTip": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Model\\ViewModels\\mdl_PRNO_BKP.cs",
+              "RelativeToolTip": "TKILSAPRFC.Model\\ViewModels\\mdl_PRNO_BKP.cs",
+              "ViewState": "AgIAAOsAAAAAAAAAAAAUwAsBAACNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T11:44:54.563Z",
+              "WhenOpened": "2025-05-27T06:29:49.21Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "mdl_PRNew.cs",
-              "DocumentMoniker": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Model\\ViewModels\\mdl_PRNew.cs",
-              "RelativeDocumentMoniker": "TKILSAPRFC.Model\\ViewModels\\mdl_PRNew.cs",
-              "ToolTip": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Model\\ViewModels\\mdl_PRNew.cs",
-              "RelativeToolTip": "TKILSAPRFC.Model\\ViewModels\\mdl_PRNew.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAAwGoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T11:45:26.681Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             }
           ]
         }

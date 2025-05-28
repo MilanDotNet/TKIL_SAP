@@ -9,7 +9,7 @@ using TKILSAPRFC.Core.Helpers;
 
 namespace TKILSAPRFC.API.Controllers
 {
-    public class GetPRByDateRangeController : AnonymousBaseController
+    public class GetPRByDateRangeController : AuthorizedController
     {
         private readonly IGetPRByDateRangeService _GetPRByDateRangeService;
         public GetPRByDateRangeController(IGetPRByDateRangeService GetPRByDateRangeService)

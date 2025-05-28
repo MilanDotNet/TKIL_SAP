@@ -19,12 +19,14 @@ namespace TKILSAPRFC.Infrastructure.Repository
         private readonly ICurrentUser currentUser;
         private readonly IConfiguration _configuration;
         private readonly RfcConnection _Rfcconnection;
+        private readonly IGetPRByPRNORepository _getPRByPRNORepository;
 
-        public GetPRNumberByDateRangeRepository(ICurrentUser currentUser, IConfiguration configuration, RfcConnection rfcconnection)
+        public GetPRNumberByDateRangeRepository(ICurrentUser currentUser, IConfiguration configuration, RfcConnection rfcconnection, IGetPRByPRNORepository getPRByPRNORepository)
         {
             this.currentUser = currentUser;
             this._configuration = configuration;
             _Rfcconnection = rfcconnection;
+            _getPRByPRNORepository = getPRByPRNORepository;
         }
 
         public async Task<ResponseMsg> GetPRNumberByDateRange(string FromDate, string ToDate)
@@ -59,19 +61,15 @@ namespace TKILSAPRFC.Infrastructure.Repository
                     return msg;
                 }
 
-                Console.WriteLine("---------------------------------------------------------------");
-                Console.WriteLine($"| {"SrNo",-5} | {"PR_NUMBER",-20} |");
-                Console.WriteLine("---------------------------------------------------------------");
-                int srNo = 1;
                 foreach (var row in output.T_PR_NUMBER)
                 {
-                    Console.WriteLine($"| {srNo,-5} |  {row.PR_NUMBER,-12} |");
-                    srNo++;
+                    Console.WriteLine("Data fetch start : " + row.PR_NUMBER);
+                    await _getPRByPRNORepository.GetPRByPRNO_C_NA(row.PR_NUMBER.TrimEnd());
                 }
-                srNo = srNo - 1;
+                
                 Console.WriteLine("End Time: " + CommonFunc.GetCurrentIndiaTimeFormatted());
                 Console.WriteLine("Success");
-                msg.msg = "Successful. Data retrieved. : PR Count - " + srNo;
+                msg.msg = "Successful. Data retrieved.";
                 msg.code = 200;
                 return msg;
             }
