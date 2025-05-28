@@ -2,8 +2,10 @@
 using Amazon.S3;
 using Amazon.S3.Model;
 using Amazon.S3.Transfer;
+using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Data;
 using System.IO.Compression;
 using System.Linq;
@@ -11,6 +13,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using TKILSAPRFC.Core.Helpers;
+using TKILSAPRFC.Model.ViewModels;
 
 namespace TKILSAPRFC.Infrastructure.Common
 {
@@ -25,16 +28,21 @@ namespace TKILSAPRFC.Infrastructure.Common
         private static readonly RegionEndpoint bucketRegion = RegionEndpoint.APSouth1; // change to your bucket's region
         private static IAmazonS3 s3Client;
 
+
         /// <summary>
         /// Initializes a new instance of the bbl_S3Bucket class.
         /// Retrieves required configuration details from the config file.
         /// </summary>
         public static void Initialize()
         {
+
             bucketName = AppSettings.Current.S3BucketName.ToString();
             key = AppSettings.Current.S3BucketKey.ToString();
-            accessKey = AppSettings.Current.S3BucketAccessKey.ToString();
-            secretKey = AppSettings.Current.S3BucketSecretKey.ToString();
+            accessKey = Environment.GetEnvironmentVariable("S3BucketAccessKey")?? throw new InvalidOperationException("Missing environment variable: S3BucketAccessKey");
+            secretKey = Environment.GetEnvironmentVariable("S3BucketSecretKey")?? throw new InvalidOperationException("Missing environment variable: S3BucketSecretKey");
+            //accessKey = AppSettings.Current.S3BucketAccessKey.ToString();
+            //secretKey = AppSettings.Current.S3BucketSecretKey.ToString();
+
         }
 
 

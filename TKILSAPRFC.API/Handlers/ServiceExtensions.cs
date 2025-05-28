@@ -77,6 +77,11 @@ namespace TKILSAPRFC.API.Handlers
                 );
                 return connection;
             });
+            services.AddSingleton(new S3Credential
+            {
+                AccessKey = GetEnv("S3BucketAccessKey"),
+                SecretKey = GetEnv("S3BucketSecretKey")
+            });
         }
 
         public static void ConfigureSwagger(this IServiceCollection services)
