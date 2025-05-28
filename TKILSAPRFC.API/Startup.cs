@@ -63,7 +63,7 @@ namespace TKILSAPRFC.API
             services.ConfigureCors();
 
             services.ConfigureHttpContextAndServices(Configuration);
-
+            
             services.ConfigureAuthentication();
 
             services.ConfigureAuthorization();
