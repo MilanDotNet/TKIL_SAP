@@ -10,25 +10,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "TKILSAPRFC.API.Controllers.LoginController",
-    "Method": "UserLogin",
-    "RelativePath": "api/v1/Login/User",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "UserLoginVM",
-        "Type": "TKILSAPRFC.Model.ViewModels.UserLoginVM",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "TKILSAPRFC.API.Controllers.MasterController",
+    "ContainingType": "TKILSAPRFC.API.Controllers.GetPRByDateRangeController",
     "Method": "GetPRByDateRange",
-    "RelativePath": "api/v1/Master/GetPRByDateRange",
+    "RelativePath": "api/v1/GetPRByDateRange/GetPRByDateRange",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -42,6 +26,59 @@
         "Name": "ToDate",
         "Type": "System.String",
         "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TKILSAPRFC.API.Controllers.GetPRByPRNOController",
+    "Method": "GetPRByPRNO",
+    "RelativePath": "api/v1/GetPRByPRNO/GetPRByPRNO",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PRNO",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TKILSAPRFC.API.Controllers.GetPRNumberByDateRangeController",
+    "Method": "GetPRNumberByDateRange",
+    "RelativePath": "api/v1/GetPRNumberByDateRange/GetPRNumberByDateRange",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "FromDate",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ToDate",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TKILSAPRFC.API.Controllers.LoginController",
+    "Method": "UserLogin",
+    "RelativePath": "api/v1/Login/User",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserLoginVM",
+        "Type": "TKILSAPRFC.Model.ViewModels.UserLoginVM",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []

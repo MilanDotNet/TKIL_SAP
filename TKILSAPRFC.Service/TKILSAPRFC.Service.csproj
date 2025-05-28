@@ -26,7 +26,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="Services\MasterService.cs">
+    <Compile Update="Services\GetPRByPRNOService.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Update="Services\GetPRNumberByDateRangeService.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Update="Services\GetPRByDateRangeService.cs">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Compile>
     <Compile Update="Services\ConnectionService.cs">

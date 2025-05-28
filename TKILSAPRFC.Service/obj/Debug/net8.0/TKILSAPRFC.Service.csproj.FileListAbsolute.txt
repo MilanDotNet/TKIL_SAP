@@ -22,7 +22,9 @@ D:\Project\DummyProject\TKIL_SAP\TKILSAPRFC.Service\obj\Debug\net8.0\refint\TKIL
 D:\Project\DummyProject\TKIL_SAP\TKILSAPRFC.Service\obj\Debug\net8.0\TKILSAPRFC.Service.pdb
 D:\Project\DummyProject\TKIL_SAP\TKILSAPRFC.Service\obj\Debug\net8.0\ref\TKILSAPRFC.Service.dll
 D:\Project\GitHub\TKIL_SAP\TKILSAPRFC.Service\bin\Debug\net8.0\Services\ConnectionService.cs
-D:\Project\GitHub\TKIL_SAP\TKILSAPRFC.Service\bin\Debug\net8.0\Services\MasterService.cs
+D:\Project\GitHub\TKIL_SAP\TKILSAPRFC.Service\bin\Debug\net8.0\Services\GetPRByDateRangeService.cs
+D:\Project\GitHub\TKIL_SAP\TKILSAPRFC.Service\bin\Debug\net8.0\Services\GetPRByPRNOService.cs
+D:\Project\GitHub\TKIL_SAP\TKILSAPRFC.Service\bin\Debug\net8.0\Services\GetPRNumberByDateRangeService.cs
 D:\Project\GitHub\TKIL_SAP\TKILSAPRFC.Service\bin\Debug\net8.0\TKILSAPRFC.Service.deps.json
 D:\Project\GitHub\TKIL_SAP\TKILSAPRFC.Service\bin\Debug\net8.0\TKILSAPRFC.Service.dll
 D:\Project\GitHub\TKIL_SAP\TKILSAPRFC.Service\bin\Debug\net8.0\TKILSAPRFC.Service.pdb

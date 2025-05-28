@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("An easy way of making SAP RFC calls from .NET Core (Windows, Linux and macOS )")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("0.5.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.5.0+7a7c7d9fd497869bac15ce359f543d05f73dcaff")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.5.0+915b4a004185a82bb1c7ce5dd855ea78fe38ad0f")]
 [assembly: System.Reflection.AssemblyProductAttribute("NwRfcNet")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NwRfcNet")]
 [assembly: System.Reflection.AssemblyVersionAttribute("0.5.0.0")]

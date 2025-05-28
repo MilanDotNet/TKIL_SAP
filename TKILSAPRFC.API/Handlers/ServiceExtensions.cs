@@ -43,8 +43,25 @@ namespace TKILSAPRFC.API.Handlers
             services.TryAddTransient<IAutomappers, AutoMappers>();
             services.TryAddTransient<IConnectionService, ConnectionService>();
             services.TryAddTransient<IConnectionRepository, ConnectionRepository>();
-            services.TryAddTransient<IMasterService, MasterService>();
-            services.TryAddTransient<IMasterRepository, MasterRepository>();
+            services.TryAddTransient<IGetPRByDateRangeService, GetPRByDateRangeService>();
+            services.TryAddTransient<IGetPRByDateRangeRepository, GetPRByDateRangeRepository>();
+            services.TryAddTransient<IGetPRNumberByDateRangeService, GetPRNumberByDateRangeService>();
+            services.TryAddTransient<IGetPRNumberByDateRangeRepository, GetPRNumberByDateRangeRepository>();
+            services.TryAddTransient<IGetPRByPRNOService, GetPRByPRNOService>();
+            services.TryAddTransient<IGetPRByPRNORepository, GetPRByPRNORepository>();
+            //services.AddScoped<RfcConnection>(provider =>
+            //{
+            //    var connection = new RfcConnection(
+            //                        userName: "SAFAL_COMUSR",
+            //                        password: @"GSj2C%w4Ykz{ERTNt]P]/3N<WlS\FD6#kT@b#4#R",
+            //                        hostname: "10.66.38.115",
+            //                        client: "100",
+            //                        language: "EN",
+            //                        systemNumber: "00",
+            //                        sncMyname: "QA"
+            //                    );
+            //    return connection;
+            //});
 
             string GetEnv(string key) => Environment.GetEnvironmentVariable(key) ?? throw new InvalidOperationException($"Missing env var: {key}");
             services.AddScoped<RfcConnection>(provider =>

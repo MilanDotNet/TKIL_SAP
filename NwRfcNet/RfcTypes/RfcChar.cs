@@ -6,7 +6,7 @@ namespace NwRfcNet.RfcTypes
     public class RfcChar : IRfcType<string>
     {
         private readonly string _rfcValue;
-        
+
         public RfcChar(char[] buffer, int maxSize)
         {
             if (maxSize > buffer.Length)
@@ -27,7 +27,7 @@ namespace NwRfcNet.RfcTypes
         internal void SetFieldValue(IntPtr dataHandle, string name)
         {
             var buffer = RfcValue.ToCharArray();
-            var rc = RfcInterop.RfcSetChars(dataHandle, name, buffer, (uint) buffer.Length, out var errorInfo);
+            var rc = RfcInterop.RfcSetChars(dataHandle, name, buffer, (uint)buffer.Length, out var errorInfo);
             rc.OnErrorThrowException(errorInfo);
         }
 
@@ -39,11 +39,18 @@ namespace NwRfcNet.RfcTypes
         /// <returns></returns>
         internal static RfcChar GetFieldValue(IntPtr dataHandle, string name, int length)
         {
-            char[] buffer = new char[length];
-            var rc = RfcInterop.RfcGetChars(dataHandle, name, buffer, (uint)buffer.Length, out var errorInfo);
-            rc.OnErrorThrowException(errorInfo);
-            return new RfcChar(buffer, buffer.Length);
+            try
+            {
+                char[] buffer = new char[length];
+                var rc = RfcInterop.RfcGetChars(dataHandle, name, buffer, (uint)buffer.Length, out var errorInfo);
+                rc.OnErrorThrowException(errorInfo);
+                return new RfcChar(buffer, buffer.Length);
+            }
+            catch (Exception ex)
+            {
 
+                throw;
+            }
         }
         #endregion 
     }

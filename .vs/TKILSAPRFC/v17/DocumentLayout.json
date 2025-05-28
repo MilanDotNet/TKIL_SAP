@@ -3,28 +3,56 @@
   "WorkspaceRootPath": "D:\\Project\\GitHub\\TKIL_SAP\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C4588DC6-C809-4131-B674-226867402EF5}|TKILSAPRFC.API\\TKILSAPRFC.API.csproj|d:\\project\\github\\tkil_sap\\tkilsaprfc.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C4588DC6-C809-4131-B674-226867402EF5}|TKILSAPRFC.API\\TKILSAPRFC.API.csproj|solutionrelative:tkilsaprfc.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4588DC6-C809-4131-B674-226867402EF5}|TKILSAPRFC.API\\TKILSAPRFC.API.csproj|d:\\project\\github\\tkil_sap\\tkilsaprfc.api\\controllers\\getprnumberbydaterangecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4588DC6-C809-4131-B674-226867402EF5}|TKILSAPRFC.API\\TKILSAPRFC.API.csproj|solutionrelative:tkilsaprfc.api\\controllers\\getprnumberbydaterangecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4588DC6-C809-4131-B674-226867402EF5}|TKILSAPRFC.API\\TKILSAPRFC.API.csproj|d:\\project\\github\\tkil_sap\\tkilsaprfc.api\\controllers\\getprbyprnocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4588DC6-C809-4131-B674-226867402EF5}|TKILSAPRFC.API\\TKILSAPRFC.API.csproj|solutionrelative:tkilsaprfc.api\\controllers\\getprbyprnocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4588DC6-C809-4131-B674-226867402EF5}|TKILSAPRFC.API\\TKILSAPRFC.API.csproj|d:\\project\\github\\tkil_sap\\tkilsaprfc.api\\controllers\\getprbydaterangecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4588DC6-C809-4131-B674-226867402EF5}|TKILSAPRFC.API\\TKILSAPRFC.API.csproj|solutionrelative:tkilsaprfc.api\\controllers\\getprbydaterangecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4588DC6-C809-4131-B674-226867402EF5}|TKILSAPRFC.API\\TKILSAPRFC.API.csproj|d:\\project\\github\\tkil_sap\\tkilsaprfc.api\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C4588DC6-C809-4131-B674-226867402EF5}|TKILSAPRFC.API\\TKILSAPRFC.API.csproj|solutionrelative:tkilsaprfc.api\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C4588DC6-C809-4131-B674-226867402EF5}|TKILSAPRFC.API\\TKILSAPRFC.API.csproj|d:\\project\\github\\tkil_sap\\tkilsaprfc.api\\handlers\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C4588DC6-C809-4131-B674-226867402EF5}|TKILSAPRFC.API\\TKILSAPRFC.API.csproj|solutionrelative:tkilsaprfc.api\\handlers\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4588DC6-C809-4131-B674-226867402EF5}|TKILSAPRFC.API\\TKILSAPRFC.API.csproj|d:\\project\\github\\tkil_sap\\tkilsaprfc.api\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4588DC6-C809-4131-B674-226867402EF5}|TKILSAPRFC.API\\TKILSAPRFC.API.csproj|solutionrelative:tkilsaprfc.api\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C4588DC6-C809-4131-B674-226867402EF5}|TKILSAPRFC.API\\TKILSAPRFC.API.csproj|d:\\project\\github\\tkil_sap\\tkilsaprfc.api\\controllers\\connectioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C4588DC6-C809-4131-B674-226867402EF5}|TKILSAPRFC.API\\TKILSAPRFC.API.csproj|solutionrelative:tkilsaprfc.api\\controllers\\connectioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C4588DC6-C809-4131-B674-226867402EF5}|TKILSAPRFC.API\\TKILSAPRFC.API.csproj|d:\\project\\github\\tkil_sap\\tkilsaprfc.api\\controllers\\mastercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4588DC6-C809-4131-B674-226867402EF5}|TKILSAPRFC.API\\TKILSAPRFC.API.csproj|solutionrelative:tkilsaprfc.api\\controllers\\mastercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{21638F7E-5298-4688-8776-79A55FFEF6EC}|TKILSAPRFC.Infrastructure\\TKILSAPRFC.Infrastructure.csproj|d:\\project\\github\\tkil_sap\\tkilsaprfc.infrastructure\\repository\\getprnumberbydaterangerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21638F7E-5298-4688-8776-79A55FFEF6EC}|TKILSAPRFC.Infrastructure\\TKILSAPRFC.Infrastructure.csproj|solutionrelative:tkilsaprfc.infrastructure\\repository\\getprnumberbydaterangerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21638F7E-5298-4688-8776-79A55FFEF6EC}|TKILSAPRFC.Infrastructure\\TKILSAPRFC.Infrastructure.csproj|d:\\project\\github\\tkil_sap\\tkilsaprfc.infrastructure\\repository\\masterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21638F7E-5298-4688-8776-79A55FFEF6EC}|TKILSAPRFC.Infrastructure\\TKILSAPRFC.Infrastructure.csproj|solutionrelative:tkilsaprfc.infrastructure\\repository\\masterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{98776348-4535-3240-596F-0ABA9FB0E513}|NwRfcNet\\NwRfcNet.csproj|d:\\project\\github\\tkil_sap\\nwrfcnet\\typemapper\\propertybuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98776348-4535-3240-596F-0ABA9FB0E513}|NwRfcNet\\NwRfcNet.csproj|solutionrelative:nwrfcnet\\typemapper\\propertybuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98776348-4535-3240-596F-0ABA9FB0E513}|NwRfcNet\\NwRfcNet.csproj|d:\\project\\github\\tkil_sap\\nwrfcnet\\rfcconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98776348-4535-3240-596F-0ABA9FB0E513}|NwRfcNet\\NwRfcNet.csproj|solutionrelative:nwrfcnet\\rfcconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{21638F7E-5298-4688-8776-79A55FFEF6EC}|TKILSAPRFC.Infrastructure\\TKILSAPRFC.Infrastructure.csproj|d:\\project\\github\\tkil_sap\\tkilsaprfc.infrastructure\\common\\awsbucket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21638F7E-5298-4688-8776-79A55FFEF6EC}|TKILSAPRFC.Infrastructure\\TKILSAPRFC.Infrastructure.csproj|solutionrelative:tkilsaprfc.infrastructure\\common\\awsbucket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{201CBBA9-1D69-4B6A-B442-6B85C83CA424}|TKILSAPRFC.Model\\TKILSAPRFC.Model.csproj|d:\\project\\github\\tkil_sap\\tkilsaprfc.model\\viewmodels\\mdl_pr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{201CBBA9-1D69-4B6A-B442-6B85C83CA424}|TKILSAPRFC.Model\\TKILSAPRFC.Model.csproj|solutionrelative:tkilsaprfc.model\\viewmodels\\mdl_pr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{21638F7E-5298-4688-8776-79A55FFEF6EC}|TKILSAPRFC.Infrastructure\\TKILSAPRFC.Infrastructure.csproj|d:\\project\\github\\tkil_sap\\tkilsaprfc.infrastructure\\repository\\getprbyprnorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21638F7E-5298-4688-8776-79A55FFEF6EC}|TKILSAPRFC.Infrastructure\\TKILSAPRFC.Infrastructure.csproj|solutionrelative:tkilsaprfc.infrastructure\\repository\\getprbyprnorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{201CBBA9-1D69-4B6A-B442-6B85C83CA424}|TKILSAPRFC.Model\\TKILSAPRFC.Model.csproj|d:\\project\\github\\tkil_sap\\tkilsaprfc.model\\viewmodels\\mdl_prno_bkp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{201CBBA9-1D69-4B6A-B442-6B85C83CA424}|TKILSAPRFC.Model\\TKILSAPRFC.Model.csproj|solutionrelative:tkilsaprfc.model\\viewmodels\\mdl_prno_bkp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,19 +62,98 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
+              "Title": "GetPRNumberByDateRangeRepository.cs",
+              "DocumentMoniker": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Infrastructure\\Repository\\GetPRNumberByDateRangeRepository.cs",
+              "RelativeDocumentMoniker": "TKILSAPRFC.Infrastructure\\Repository\\GetPRNumberByDateRangeRepository.cs",
+              "ToolTip": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Infrastructure\\Repository\\GetPRNumberByDateRangeRepository.cs",
+              "RelativeToolTip": "TKILSAPRFC.Infrastructure\\Repository\\GetPRNumberByDateRangeRepository.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwD0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T06:14:39.299Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "web.config",
+              "DocumentMoniker": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.API\\web.config",
+              "RelativeDocumentMoniker": "TKILSAPRFC.API\\web.config",
+              "ToolTip": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.API\\web.config",
+              "RelativeToolTip": "TKILSAPRFC.API\\web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-28T09:58:00.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "ServiceExtensions.cs",
               "DocumentMoniker": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.API\\Handlers\\ServiceExtensions.cs",
               "RelativeDocumentMoniker": "TKILSAPRFC.API\\Handlers\\ServiceExtensions.cs",
               "ToolTip": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.API\\Handlers\\ServiceExtensions.cs",
               "RelativeToolTip": "TKILSAPRFC.API\\Handlers\\ServiceExtensions.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAQwDoAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAYwEAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T10:19:12.105Z",
+              "WhenOpened": "2025-05-28T09:54:17.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.API\\Startup.cs",
+              "RelativeDocumentMoniker": "TKILSAPRFC.API\\Startup.cs",
+              "ToolTip": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.API\\Startup.cs",
+              "RelativeToolTip": "TKILSAPRFC.API\\Startup.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T09:54:11.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetPRNumberByDateRangeController.cs",
+              "DocumentMoniker": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.API\\Controllers\\GetPRNumberByDateRangeController.cs",
+              "RelativeDocumentMoniker": "TKILSAPRFC.API\\Controllers\\GetPRNumberByDateRangeController.cs",
+              "ToolTip": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.API\\Controllers\\GetPRNumberByDateRangeController.cs",
+              "RelativeToolTip": "TKILSAPRFC.API\\Controllers\\GetPRNumberByDateRangeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T09:54:05.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetPRByPRNOController.cs",
+              "DocumentMoniker": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.API\\Controllers\\GetPRByPRNOController.cs",
+              "RelativeDocumentMoniker": "TKILSAPRFC.API\\Controllers\\GetPRByPRNOController.cs",
+              "ToolTip": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.API\\Controllers\\GetPRByPRNOController.cs",
+              "RelativeToolTip": "TKILSAPRFC.API\\Controllers\\GetPRByPRNOController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T09:54:04.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GetPRByDateRangeController.cs",
+              "DocumentMoniker": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.API\\Controllers\\GetPRByDateRangeController.cs",
+              "RelativeDocumentMoniker": "TKILSAPRFC.API\\Controllers\\GetPRByDateRangeController.cs",
+              "ToolTip": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.API\\Controllers\\GetPRByDateRangeController.cs",
+              "RelativeToolTip": "TKILSAPRFC.API\\Controllers\\GetPRByDateRangeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T09:54:02.53Z",
               "EditorCaption": ""
             },
             {
@@ -59,67 +166,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RfcConnection.cs",
-              "DocumentMoniker": "D:\\Project\\GitHub\\TKIL_SAP\\NwRfcNet\\RfcConnection.cs",
-              "RelativeDocumentMoniker": "NwRfcNet\\RfcConnection.cs",
-              "ToolTip": "D:\\Project\\GitHub\\TKIL_SAP\\NwRfcNet\\RfcConnection.cs",
-              "RelativeToolTip": "NwRfcNet\\RfcConnection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMoAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T08:44:49.509Z",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.API\\appsettings.json",
+              "RelativeDocumentMoniker": "TKILSAPRFC.API\\appsettings.json",
+              "ToolTip": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.API\\appsettings.json",
+              "RelativeToolTip": "TKILSAPRFC.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-28T05:07:00.967Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "ConnectionController.cs",
               "DocumentMoniker": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.API\\Controllers\\ConnectionController.cs",
               "RelativeDocumentMoniker": "TKILSAPRFC.API\\Controllers\\ConnectionController.cs",
               "ToolTip": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.API\\Controllers\\ConnectionController.cs",
               "RelativeToolTip": "TKILSAPRFC.API\\Controllers\\ConnectionController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T08:42:58.044Z",
+              "WhenOpened": "2025-05-28T09:53:58.925Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MasterController.cs",
-              "DocumentMoniker": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.API\\Controllers\\MasterController.cs",
-              "RelativeDocumentMoniker": "TKILSAPRFC.API\\Controllers\\MasterController.cs",
-              "ToolTip": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.API\\Controllers\\MasterController.cs",
-              "RelativeToolTip": "TKILSAPRFC.API\\Controllers\\MasterController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAnwBYAAAA2AAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "PropertyBuilder.cs",
+              "DocumentMoniker": "D:\\Project\\GitHub\\TKIL_SAP\\NwRfcNet\\TypeMapper\\PropertyBuilder.cs",
+              "RelativeDocumentMoniker": "NwRfcNet\\TypeMapper\\PropertyBuilder.cs",
+              "ToolTip": "D:\\Project\\GitHub\\TKIL_SAP\\NwRfcNet\\TypeMapper\\PropertyBuilder.cs",
+              "RelativeToolTip": "NwRfcNet\\TypeMapper\\PropertyBuilder.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAuwC4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T06:43:16.4Z",
+              "WhenOpened": "2025-05-28T06:42:41.401Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "mdl_PR.cs",
-              "DocumentMoniker": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Model\\ViewModels\\mdl_PR.cs",
-              "RelativeDocumentMoniker": "TKILSAPRFC.Model\\ViewModels\\mdl_PR.cs",
-              "ToolTip": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Model\\ViewModels\\mdl_PR.cs",
-              "RelativeToolTip": "TKILSAPRFC.Model\\ViewModels\\mdl_PR.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAcwGAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "AWSBucket.cs",
+              "DocumentMoniker": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Infrastructure\\Common\\AWSBucket.cs",
+              "RelativeDocumentMoniker": "TKILSAPRFC.Infrastructure\\Common\\AWSBucket.cs",
+              "ToolTip": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Infrastructure\\Common\\AWSBucket.cs",
+              "RelativeToolTip": "TKILSAPRFC.Infrastructure\\Common\\AWSBucket.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAewCgAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T13:23:45.222Z",
+              "WhenOpened": "2025-05-27T09:15:29.709Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MasterRepository.cs",
-              "DocumentMoniker": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Infrastructure\\Repository\\MasterRepository.cs",
-              "RelativeDocumentMoniker": "TKILSAPRFC.Infrastructure\\Repository\\MasterRepository.cs",
-              "ToolTip": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Infrastructure\\Repository\\MasterRepository.cs",
-              "RelativeToolTip": "TKILSAPRFC.Infrastructure\\Repository\\MasterRepository.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAYwEoAAAA9AAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "GetPRByPRNORepository.cs",
+              "DocumentMoniker": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Infrastructure\\Repository\\GetPRByPRNORepository.cs",
+              "RelativeDocumentMoniker": "TKILSAPRFC.Infrastructure\\Repository\\GetPRByPRNORepository.cs",
+              "ToolTip": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Infrastructure\\Repository\\GetPRByPRNORepository.cs",
+              "RelativeToolTip": "TKILSAPRFC.Infrastructure\\Repository\\GetPRByPRNORepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAL8BAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T12:44:53.575Z",
+              "WhenOpened": "2025-05-27T06:31:43.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "mdl_PRNO_BKP.cs",
+              "DocumentMoniker": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Model\\ViewModels\\mdl_PRNO_BKP.cs",
+              "RelativeDocumentMoniker": "TKILSAPRFC.Model\\ViewModels\\mdl_PRNO_BKP.cs",
+              "ToolTip": "D:\\Project\\GitHub\\TKIL_SAP\\TKILSAPRFC.Model\\ViewModels\\mdl_PRNO_BKP.cs",
+              "RelativeToolTip": "TKILSAPRFC.Model\\ViewModels\\mdl_PRNO_BKP.cs",
+              "ViewState": "AgIAAPgAAAAAAAAAAAAIwAgBAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T06:29:49.21Z",
               "EditorCaption": ""
             }
           ]

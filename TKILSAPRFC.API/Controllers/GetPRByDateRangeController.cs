@@ -9,18 +9,19 @@ using TKILSAPRFC.Core.Helpers;
 
 namespace TKILSAPRFC.API.Controllers
 {
-    public class MasterController : AnonymousBaseController
+    public class GetPRByDateRangeController : AuthorizedController
     {
-        private readonly IMasterService _masterService;
-        public MasterController(IMasterService masterService)
+        private readonly IGetPRByDateRangeService _GetPRByDateRangeService;
+        public GetPRByDateRangeController(IGetPRByDateRangeService GetPRByDateRangeService)
         {
-            this._masterService = masterService;
+            this._GetPRByDateRangeService = GetPRByDateRangeService;
         }
 
         [HttpGet("GetPRByDateRange")]
         public async Task<IActionResult> GetPRByDateRange(string FromDate, string ToDate)
         {
-            return Ok(await this._masterService.PRByDateRange(FromDate, ToDate));
+            return Ok(await this._GetPRByDateRangeService.PRByDateRange(FromDate, ToDate));
         }
+
     }
 }

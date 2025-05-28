@@ -14,29 +14,28 @@ using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace TKILSAPRFC.Infrastructure.Repository
 {
-    public class MasterRepository : IMasterRepository
+    public class GetPRNumberByDateRangeRepository : IGetPRNumberByDateRangeRepository
     {
         private readonly ICurrentUser currentUser;
         private readonly IConfiguration _configuration;
         private readonly RfcConnection _Rfcconnection;
+        private readonly IGetPRByPRNORepository _getPRByPRNORepository;
 
-        public MasterRepository(ICurrentUser currentUser, IConfiguration configuration, RfcConnection rfcconnection)
+        public GetPRNumberByDateRangeRepository(ICurrentUser currentUser, IConfiguration configuration, RfcConnection rfcconnection, IGetPRByPRNORepository getPRByPRNORepository)
         {
             this.currentUser = currentUser;
             this._configuration = configuration;
             _Rfcconnection = rfcconnection;
+            _getPRByPRNORepository = getPRByPRNORepository;
         }
 
-        public async Task<ResponseMsg> PRByDateRange(string FromDate, string ToDate)
+        public async Task<ResponseMsg> GetPRNumberByDateRange(string FromDate, string ToDate)
         {
             ResponseMsg msg = new ResponseMsg();
-            
-
             try
             {
                 _Rfcconnection.Open();
                 _Rfcconnection.Ping();
-
 
                 Console.WriteLine("SAP connection is active.");
                 Console.WriteLine("---------------------------------------------------------------");
@@ -44,8 +43,8 @@ namespace TKILSAPRFC.Infrastructure.Repository
 
                 var mapper = _Rfcconnection.Mapper;
                 Configure(mapper);
-                
-                var func = _Rfcconnection.CallRfcFunction("ZPRCSNS_GET_PRCHS_RQSTN");
+
+                var func = _Rfcconnection.CallRfcFunction("ZPRCSNS_GET_PR_NO_BY_DATE");
                 var inputParameters = new PurchaseRequestInput
                 {
                     IM_V_PR_CHNG_FRM_DATE = FromDate,
@@ -54,37 +53,23 @@ namespace TKILSAPRFC.Infrastructure.Repository
                 func.Invoke(inputParameters);
 
                 var output = func.GetOutputParameters<PurchaseRequestOutput>();
-                if (output.EX_T_PR_INFO == null || !output.EX_T_PR_INFO.Any())
+                if (output.T_PR_NUMBER == null || !output.T_PR_NUMBER.Any())
                 {
                     Console.WriteLine("No data retrieved.");
                     msg.msg = "No data retrieved.";
                     msg.code = 204;
                     return msg;
                 }
-                
-                Console.WriteLine("---------------------------------------------------------------");
-                Console.WriteLine($"| {"SrNo",-5} | {"PR_NUMBER",-20} | {"PR_TYPE",-15} | {"PR_TYPE_DESC",-20} |");
-                Console.WriteLine("---------------------------------------------------------------");
-                int srNo = 1;
-                int srNo_itm = 1;
-                foreach (var row in output.EX_T_PR_INFO)
+
+                foreach (var row in output.T_PR_NUMBER)
                 {
-                    Console.WriteLine($"| {srNo,-5} |  {row.PR_NUMBER,-12} | {row.PR_TYPE,-10} | {row.PR_TYPE_DESC,-20} |");
-                    if (row.PR_ITM_INFO != null && row.PR_ITM_INFO.Any())
-                    {
-                        foreach (var item in row.PR_ITM_INFO)
-                        {
-                            Console.WriteLine($" SrNo: {srNo_itm,-5},  PR_ITM_NO: {item.PR_ITM_NO}, PR_ITM_STATUS: {item.PR_ITM_STATUS}, PR_ITM_RL_DATE: {item.PR_ITM_RL_DATE}, PR_ITM_MATERIAL: {item.PR_ITM_MATERIAL}, PR_ITM_MATERIAL_DSC: {item.PR_ITM_MATERIAL_DSC}, ");
-                            srNo_itm++;
-                        }
-                    }
-                    srNo++;
+                    Console.WriteLine("Data fetch start : " + row.PR_NUMBER);
+                    await _getPRByPRNORepository.GetPRByPRNO_C_NA(row.PR_NUMBER.TrimEnd());
                 }
-                srNo = srNo - 1;
-                srNo_itm = srNo_itm - 1;
+                
                 Console.WriteLine("End Time: " + CommonFunc.GetCurrentIndiaTimeFormatted());
                 Console.WriteLine("Success");
-                msg.msg = "Successful. Data retrieved. : PR Count - " + srNo + " : Total Pr vise Item Count - " + srNo_itm;
+                msg.msg = "Successful. Data retrieved.";
                 msg.code = 200;
                 return msg;
             }

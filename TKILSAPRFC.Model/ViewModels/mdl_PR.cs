@@ -18,24 +18,12 @@ namespace TKILSAPRFC.Model.ViewModels
         }
         public class PurchaseRequestOutput
         {
-            public PurchaseRequest[] EX_T_PR_INFO { get; set; }
+            public PurchaseRequest[] T_PR_NUMBER { get; set; }
+
         }
         public class PurchaseRequest
         {
             public string PR_NUMBER { get; set; }
-            public string PR_TYPE { get; set; } 
-            public string PR_TYPE_DESC { get; set; }
-            public PurchaseRequestItem[] PR_ITM_INFO { get; set; }
-        }
-
-        public class PurchaseRequestItem
-        {
-            public string PR_ITM_NO { get; set; }
-            public string PR_ITM_STATUS { get; set; }
-            public DateTime? PR_ITM_RL_DATE { get; set; }
-            public string PR_ITM_MATERIAL { get; set; }
-            public string PR_ITM_MATERIAL_DSC { get; set; }
-            
         }
 
         public static void Configure(RfcMapper mapper)
@@ -55,8 +43,8 @@ namespace TKILSAPRFC.Model.ViewModels
 
             // Output structure
             mapper.Parameter<PurchaseRequestOutput>()
-                .Property(x => x.EX_T_PR_INFO)
-                .HasParameterName("EX_T_PR_INFO")
+                .Property(x => x.T_PR_NUMBER)
+                .HasParameterName("T_PR_NUMBER")
                 .HasParameterType(RfcFieldType.Table);
 
 
@@ -66,41 +54,6 @@ namespace TKILSAPRFC.Model.ViewModels
                 .HasParameterName("PR_NUMBER")
                 .HasParameterType(RfcFieldType.Char)
                 .MaxLength(20);
-            
-            mapper.Parameter<PurchaseRequest>()
-                .Property(x => x.PR_TYPE)
-                .HasParameterName("PR_TYPE")
-                .HasParameterType(RfcFieldType.Char)
-                .MaxLength(15);
-            
-            mapper.Parameter<PurchaseRequest>()
-                .Property(x => x.PR_TYPE_DESC)
-                .HasParameterName("PR_TYPE_DESC")
-                .HasParameterType(RfcFieldType.Char)
-                .MaxLength(40);
-
-            mapper.Parameter<PurchaseRequest>()
-            .Property(x => x.PR_ITM_INFO)
-            .HasParameterName("PR_ITM_INFO")
-            .HasParameterType(RfcFieldType.Table);
-
-
-
-            mapper.Parameter<PurchaseRequestItem>()
-                .Property(x => x.PR_ITM_NO).HasParameterName("PR_ITM_NO").HasParameterType(RfcFieldType.Char).MaxLength(5);
-
-            mapper.Parameter<PurchaseRequestItem>()
-                .Property(x => x.PR_ITM_STATUS).HasParameterName("PR_ITM_STATUS").HasParameterType(RfcFieldType.Char).MaxLength(1);
-
-            mapper.Parameter<PurchaseRequestItem>()
-                .Property(x => x.PR_ITM_RL_DATE).HasParameterName("PR_ITM_RL_DATE").HasParameterType(RfcFieldType.Date);
-
-            mapper.Parameter<PurchaseRequestItem>()
-                .Property(x => x.PR_ITM_MATERIAL).HasParameterName("PR_ITM_MATERIAL").HasParameterType(RfcFieldType.Char).MaxLength(100);
-            
-            mapper.Parameter<PurchaseRequestItem>()
-                .Property(x => x.PR_ITM_MATERIAL_DSC).HasParameterName("PR_ITM_MATERIAL_DSC").HasParameterType(RfcFieldType.Char).MaxLength(100);
-
         }
     }
 }

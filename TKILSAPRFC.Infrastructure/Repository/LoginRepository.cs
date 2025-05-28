@@ -39,7 +39,7 @@ namespace TKILSAPRFC.Infrastructure.Repository
                     UserLoginDetailWithDatabase UserLoginDetailWithDatabase = new UserLoginDetailWithDatabase
                     {
                         UserLoginDetail = userLoginDetail,
-                        DatabaseName = "TKILSAPRFC"
+                        DatabaseName = "TKIL_MVC_SAP"
                     };
                     return UserLoginDetailWithDatabase;
                 }

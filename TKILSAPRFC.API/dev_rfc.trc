@@ -1,0 +1,23 @@
+
+**** Trace file opened at 2025-05-27, 10:32:01 India Standard Time
+ RFC library: 721, Current working directory: D:\Project\GitHub\TKIL_SAP\TKILSAPRFC.API, Program: TKILSAPRFC
+ Hardware: PC with Windows NT 8x AMD64 Level 6 (Mod 142 Step 12), Operating_system: Windows NT 6.3, Kernel_release: 721 patchlevel 39
+ Hostname: SAFALSOFT31, IP address: 192.168.3.31, IP address_v6: 192.168.3.31
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host SAFALSOFT31 with Unicode
+ERROR       partner '10.66.38.115:3300' not reached
+TIME        Tue May 27 10:32:01 2025
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 10.66.38.115:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     2
+
+

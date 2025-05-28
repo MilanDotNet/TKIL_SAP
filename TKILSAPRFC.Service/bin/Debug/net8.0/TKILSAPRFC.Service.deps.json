@@ -31,6 +31,25 @@
           }
         }
       },
+      "AWSSDK.Core/4.0.0.6": {
+        "runtime": {
+          "lib/net8.0/AWSSDK.Core.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.6"
+          }
+        }
+      },
+      "AWSSDK.S3/4.0.0.7": {
+        "dependencies": {
+          "AWSSDK.Core": "4.0.0.6"
+        },
+        "runtime": {
+          "lib/net8.0/AWSSDK.S3.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.7"
+          }
+        }
+      },
       "Azure.Core/1.24.0": {
         "dependencies": {
           "Microsoft.Bcl.AsyncInterfaces": "1.1.1",
@@ -748,6 +767,8 @@
       },
       "TKILSAPRFC.Infrastructure/1.0.0": {
         "dependencies": {
+          "AWSSDK.Core": "4.0.0.6",
+          "AWSSDK.S3": "4.0.0.7",
           "AutoMapper": "12.0.1",
           "Dapper": "2.0.123",
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
@@ -801,6 +822,20 @@
       "sha512": "sha512-hvV62vl6Hp/WfQ24yzo3Co9+OPl8wH8hApwVtgWpiAynVJkUcs7xvehnSftawL8Pe8FrPffBRM3hwzLQqWDNjA==",
       "path": "automapper/12.0.1",
       "hashPath": "automapper.12.0.1.nupkg.sha512"
+    },
+    "AWSSDK.Core/4.0.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qPg9l63BTLXARC8j8fjjTrHa5pNDBq1g+XDzu6Oi1zl1d+RKbjLrCXZYFBQN+O6ZJGeHRBNLD0fFcPEK4rEk5Q==",
+      "path": "awssdk.core/4.0.0.6",
+      "hashPath": "awssdk.core.4.0.0.6.nupkg.sha512"
+    },
+    "AWSSDK.S3/4.0.0.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dFELsA+Y7aXmvCTL83+oIWmr+0s/GpkqCKZK1ac7HPdYQFv+QHEAhrXdCJknsCKqK+v0yefkLzuKuSSP6k4tmA==",
+      "path": "awssdk.s3/4.0.0.7",
+      "hashPath": "awssdk.s3.4.0.0.7.nupkg.sha512"
     },
     "Azure.Core/1.24.0": {
       "type": "package",

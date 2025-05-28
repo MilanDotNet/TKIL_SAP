@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TKILSAPRFC.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2f8afa1364bfa865925d16edc93de2afe49c3d70")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+915b4a004185a82bb1c7ce5dd855ea78fe38ad0f")]
 [assembly: System.Reflection.AssemblyProductAttribute("TKILSAPRFC.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TKILSAPRFC.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
