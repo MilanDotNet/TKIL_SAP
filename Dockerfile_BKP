@@ -40,14 +40,5 @@ COPY TKILSAPRFC.Infrastructure/nwrfcsdk/lib/libicudata.so.34 /usr/lib/
 # Export LD_LIBRARY_PATH
 ENV LD_LIBRARY_PATH="/usr/lib"
 
-#EXPOSE 8080
-#ENTRYPOINT ["dotnet", "TKILSAPRFC.API.dll", "--urls", "http://0.0.0.0:8080"]
-# Set default port environment variable
-ENV APP_PORT=8080
-
-# Add custom entrypoint script
-COPY entrypoint.sh .
-RUN chmod +x entrypoint.sh
-
-EXPOSE ${APP_PORT}
-ENTRYPOINT ["./entrypoint.sh"]
+EXPOSE 80
+ENTRYPOINT ["dotnet", "TKILSAPRFC.API.dll", "--urls", "http://0.0.0.0:80"]
